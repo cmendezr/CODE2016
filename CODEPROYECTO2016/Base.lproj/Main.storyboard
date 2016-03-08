@@ -269,7 +269,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ll-LS-Zt6">
                                 <rect key="frame" x="135" y="626" width="145" height="43"/>
                                 <color key="backgroundColor" red="0.99583703280000002" green="0.63839936259999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Guardar">
+                                <state key="normal" title="Guardar ">
                                     <color key="titleColor" red="0.9959825873" green="0.99621325729999999" blue="0.99187678099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -519,6 +519,6 @@
         <image name="LogoPrincipal.png" width="800" height="800"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qXF-JT-JNy"/>
+        <segue reference="EyU-v7-hdo"/>
     </inferredMetricsTieBreakers>
 </document>
