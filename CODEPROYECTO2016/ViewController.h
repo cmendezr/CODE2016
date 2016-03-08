@@ -18,7 +18,24 @@
     IBOutlet UITextField * EstadoTF;
     IBOutlet UITextField * MunicipiosTF;
     IBOutlet UIPickerView * NuevoPicker;
+    //Arreglo 1
+    NSArray *datos;
+    IBOutlet UIPickerView *picker;
+    
+    
+    //Arreglo 2
+    NSArray *datos2;
+    IBOutlet UIPickerView *picker2;
+    
+    //Obtener la hora del datePicker
+    IBOutlet UIDatePicker *dtHora;
+    IBOutlet UILabel *lblHora;
+    
 }
+
+-(IBAction)obtenHora:(id)sender;
+
+-(IBAction)clickGuardar:(id)sender;
 
 
 - (IBAction)Entrar:(id)sender;

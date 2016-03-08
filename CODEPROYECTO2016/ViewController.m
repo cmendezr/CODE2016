@@ -143,4 +143,23 @@ NSArray * _municipiosArray;
     // Dispose of any resources that can be recreated.
 }
 
+//ALARMA
+-(IBAction)obtenHora:(id)sender {
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    NSDate *event = dtHora.date;
+    [dateFormat setDateFormat:@"hh:mm aa"];
+    
+    NSString *dateString = [dateFormat stringFromDate:event];
+    lblHora.text = [NSString stringWithFormat:@"%@", dateString];
+}
+
+-(IBAction)clickGuardar:(id)sender {
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    NSDate *event = dtHora.date;
+    [dateFormat setDateFormat:@"hh:mm"];
+    
+    NSString *dateString = [dateFormat stringFromDate:event];
+    
+}
+
 @end
