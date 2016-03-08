@@ -601,7 +601,6 @@
         <image name="cronometro-150x150.png" width="150" height="150"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gs2-Y5-kGB"/>
-        <segue reference="OM3-AE-e2i"/>
+        <segue reference="qXF-JT-JNy"/>
     </inferredMetricsTieBreakers>
 </document>
