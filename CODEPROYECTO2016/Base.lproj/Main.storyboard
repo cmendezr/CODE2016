@@ -18,8 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zG3-dH-WM5">
-                                <rect key="frame" x="277" y="227" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="279" y="227" width="42" height="30"/>
+                                <state key="normal" title="Enviar"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7CV-5C-UxC">
                                 <rect key="frame" x="277" y="285" width="46" height="30"/>
