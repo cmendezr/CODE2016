@@ -50,7 +50,12 @@ NSArray * _municipiosArray;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
+    //Redondear Imagenes
+    ImagenRedes.layer.cornerRadius = ImagenRedes.frame.size.width /2;
+    ImagenRedes.clipsToBounds = YES;
+    //
+
     
     //Picker Fecha Nacimiento
     UIDatePicker *datePicker = [[UIDatePicker alloc]init];

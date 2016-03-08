@@ -24,6 +24,7 @@
 		41FE66631C8E4F390052A48E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FE66611C8E4F390052A48E /* LaunchScreen.storyboard */; };
 		41FE666E1C8E4F390052A48E /* CODEPROYECTO2016Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE666D1C8E4F390052A48E /* CODEPROYECTO2016Tests.m */; };
 		41FE66791C8E4F390052A48E /* CODEPROYECTO2016UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE66781C8E4F390052A48E /* CODEPROYECTO2016UITests.m */; };
+		522082F61C8F92B60080F816 /* boy-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 522082F51C8F92B60080F816 /* boy-512.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		41FE66741C8E4F390052A48E /* CODEPROYECTO2016UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CODEPROYECTO2016UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FE66781C8E4F390052A48E /* CODEPROYECTO2016UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CODEPROYECTO2016UITests.m; sourceTree = "<group>"; };
 		41FE667A1C8E4F390052A48E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522082F51C8F92B60080F816 /* boy-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boy-512.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		4114CE0D1C8F47F900A6FEC3 /* imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				522082F51C8F92B60080F816 /* boy-512.png */,
 				4114CE011C8F47F000A6FEC3 /* agenda.png */,
 				4114CE021C8F47F000A6FEC3 /* alarma.png */,
 				4114CE031C8F47F000A6FEC3 /* calendario.png */,
@@ -288,6 +291,7 @@
 				4114CE071C8F47F000A6FEC3 /* agenda.png in Resources */,
 				41FE66601C8E4F390052A48E /* Assets.xcassets in Resources */,
 				4114CE0C1C8F47F000A6FEC3 /* salud.png in Resources */,
+				522082F61C8F92B60080F816 /* boy-512.png in Resources */,
 				4114CE091C8F47F000A6FEC3 /* calendario.png in Resources */,
 				4114CE0B1C8F47F000A6FEC3 /* Retos.png in Resources */,
 				41FE665E1C8E4F390052A48E /* Main.storyboard in Resources */,
