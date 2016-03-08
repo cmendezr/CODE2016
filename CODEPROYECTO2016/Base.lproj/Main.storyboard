@@ -22,8 +22,8 @@
                                 <state key="normal" title="Enviar"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7CV-5C-UxC">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="270" y="285" width="61" height="30"/>
+                                <state key="normal" title="Cancelar"/>
                                 <connections>
                                     <segue destination="U8o-ax-3pj" kind="push" id="7Rb-cf-rO5"/>
                                 </connections>
