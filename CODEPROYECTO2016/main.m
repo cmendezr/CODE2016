@@ -1,9 +1,9 @@
 //
 //  main.m
-//  CODEPROYECTO2016
+//  PruebaRito
 //
-//  Created by utng on 07/03/16.
-//  Copyright © 2016 CADES. All rights reserved.
+//  Created by utng on 02/03/16.
+//  Copyright © 2016 utng. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
