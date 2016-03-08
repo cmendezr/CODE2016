@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10115" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gxp-B9-aI5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10115" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wiN-ZZ-XVy">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10084"/>
@@ -88,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="824" y="429"/>
+            <point key="canvasLocation" x="532" y="429"/>
         </scene>
         <!--Registro-->
         <scene sceneID="4Eq-yx-4oS">
@@ -138,6 +138,9 @@
                                 <state key="normal" title="Registrar">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="o9P-L6-ZRh" kind="push" id="gxd-4C-Dtv"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fecha de Nacimiento" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ORu-c4-W59">
                                 <rect key="frame" x="20" y="265" width="374" height="30"/>
@@ -166,9 +169,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aVB-Bo-sdM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1309" y="429"/>
+            <point key="canvasLocation" x="1031" y="429"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu-->
         <scene sceneID="4Nh-dl-Wed">
             <objects>
                 <viewController id="o9P-L6-ZRh" sceneMemberID="viewController">
@@ -177,48 +180,71 @@
                         <viewControllerLayoutGuide type="bottom" id="hoB-GO-C1c"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Z1K-oZ-KvZ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="K2D-H2-gBb">
-                                <rect key="frame" x="90" y="155" width="393" height="262"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mcx-ks-Yst">
-                                    <size key="itemSize" width="165" height="165"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="MBh-N6-XSz">
-                                        <rect key="frame" x="0.0" y="0.0" width="165" height="165"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="165" height="165"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZ7-cB-gXq">
-                                <rect key="frame" x="78" y="44" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AkO-6q-3pj">
+                                <rect key="frame" x="67" y="133" width="77" height="74"/>
+                                <state key="normal" backgroundImage="LogoPrincipal.png"/>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ztO-Ba-9am">
-                                <rect key="frame" x="45" y="92" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Kt3-jp-asW">
-                                <rect key="frame" x="63" y="387" width="118" height="31"/>
-                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BW4-Ak-bjA">
+                                <rect key="frame" x="58" y="260" width="100" height="95"/>
+                                <state key="normal" backgroundImage="agenda.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mms-Na-bFq">
+                                <rect key="frame" x="59" y="396" width="98" height="86"/>
+                                <state key="normal" backgroundImage="calendario.png"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="salud" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hwr-My-cVb">
+                                <rect key="frame" x="85" y="206" width="41" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Agenda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECm-eA-UyW">
+                                <rect key="frame" x="76" y="357" width="59" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oao-dg-CDN">
+                                <rect key="frame" x="67" y="480" width="83" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTT-AQ-frB">
+                                <rect key="frame" x="253" y="133" width="82" height="77"/>
+                                <state key="normal" backgroundImage="Retos.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWf-Zx-Nau">
+                                <rect key="frame" x="250" y="264" width="85" height="85"/>
+                                <state key="normal" backgroundImage="alarma.png"/>
+                                <connections>
+                                    <segue destination="hdd-Ua-q5q" kind="push" id="gs2-Y5-kGB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Retos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjT-i0-NxG">
+                                <rect key="frame" x="271" y="212" width="44" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alarma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpX-fA-Nyb">
+                                <rect key="frame" x="269" y="357" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Menu" id="uKT-XY-w8C"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SAf-sM-wub" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2268" y="188"/>
+            <point key="canvasLocation" x="1571" y="429"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8Od-sW-I3r">
@@ -237,7 +263,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aEC-0U-zmu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="286" y="429"/>
+            <point key="canvasLocation" x="10" y="429"/>
         </scene>
         <!--Selecciona tu Alarma-->
         <scene sceneID="Zzg-TM-sT2">
@@ -359,7 +385,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I55-wX-hcp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1515" y="1896"/>
+            <point key="canvasLocation" x="2619" y="429"/>
         </scene>
         <!--Alarma-->
         <scene sceneID="Jj7-q6-caB">
@@ -478,8 +504,10 @@
                         </sections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Alarma" id="cLG-MQ-DQ0">
-                        <barButtonItem key="leftBarButtonItem" systemItem="trash" id="uiq-1H-xDR">
-                            <color key="tintColor" red="0.99559038879999995" green="0.0" blue="0.045561440289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <barButtonItem key="leftBarButtonItem" title="&lt; Menu" id="2Dz-7L-JCM">
+                            <connections>
+                                <segue destination="o9P-L6-ZRh" kind="push" id="OM3-AE-e2i"/>
+                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="5XH-Kj-Wkg">
                             <color key="tintColor" red="0.99559038879999995" green="0.0" blue="0.045561440289999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -495,30 +523,18 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NWH-MA-Nfz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2115" y="1112"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="uG8-9S-KU3">
-            <objects>
-                <navigationController id="gxp-B9-aI5" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="vKY-Kg-twn"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uC4-oe-O7k">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="hdd-Ua-q5q" kind="relationship" relationship="rootViewController" id="qXF-JT-JNy"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HeY-00-RnE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="637" y="1331"/>
+            <point key="canvasLocation" x="2081" y="429"/>
         </scene>
     </scenes>
     <resources>
         <image name="LogoPrincipal.png" width="800" height="800"/>
+        <image name="Retos.png" width="150" height="150"/>
+        <image name="agenda.png" width="512" height="512"/>
+        <image name="alarma.png" width="256" height="256"/>
+        <image name="calendario.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="EyU-v7-hdo"/>
+        <segue reference="gs2-Y5-kGB"/>
+        <segue reference="OM3-AE-e2i"/>
     </inferredMetricsTieBreakers>
 </document>
