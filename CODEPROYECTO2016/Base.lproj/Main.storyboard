@@ -88,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="824" y="429"/>
+            <point key="canvasLocation" x="-208" y="-211"/>
         </scene>
         <!--Registro-->
         <scene sceneID="4Eq-yx-4oS">
@@ -166,7 +166,33 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aVB-Bo-sdM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1309" y="429"/>
+            <point key="canvasLocation" x="277" y="-211"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="l8H-0O-H7i">
+            <objects>
+                <viewController id="jdK-Gk-lsD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nyR-li-nVd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dra-MS-DHB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vgi-aO-VNo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91L-iA-CNN">
+                                <rect key="frame" x="238" y="195" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vxv-52-TeI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="628" y="628"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8Od-sW-I3r">
@@ -185,7 +211,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aEC-0U-zmu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="286" y="429"/>
+            <point key="canvasLocation" x="-746" y="-211"/>
         </scene>
     </scenes>
     <resources>
