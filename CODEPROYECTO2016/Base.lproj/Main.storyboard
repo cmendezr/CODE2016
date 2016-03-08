@@ -216,9 +216,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTT-AQ-frB">
                                 <rect key="frame" x="253" y="133" width="82" height="77"/>
                                 <state key="normal" backgroundImage="Retos.png"/>
-                                <connections>
-                                    <segue destination="5KQ-pi-8ni" kind="push" id="0Nq-3d-NbA"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWf-Zx-Nau">
                                 <rect key="frame" x="250" y="264" width="85" height="85"/>
@@ -249,6 +246,19 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEc-Wh-e21">
+                                <rect key="frame" x="58" y="525" width="92" height="88"/>
+                                <state key="normal" title="Button" image="configuracion.png"/>
+                                <connections>
+                                    <segue destination="5KQ-pi-8ni" kind="show" id="hnB-V3-6ld"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Configuracion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BvB-1R-aWr">
+                                <rect key="frame" x="53" y="615" width="108" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.51938081503199074" green="0.53782963409158546" blue="0.68046480508951035" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -259,10 +269,10 @@
             </objects>
             <point key="canvasLocation" x="1571" y="429"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Configuracion-->
         <scene sceneID="ClA-5V-DuY">
             <objects>
-                <tableViewController id="5KQ-pi-8ni" sceneMemberID="viewController">
+                <tableViewController id="5KQ-pi-8ni" customClass="ConfiguracionViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="black" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="9VB-7l-HNx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -270,12 +280,23 @@
                         <sections>
                             <tableViewSection id="MGo-1y-AY3">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="127" id="Cvm-Tj-Ppz">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="127" id="Mbg-Ol-jhd">
                                         <rect key="frame" x="0.0" y="64" width="414" height="127"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cvm-Tj-Ppz" id="e9x-ZL-HL7">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mbg-Ol-jhd" id="WHi-QM-jwf">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="126"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rutinas para ganar o perder peso..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPQ-7O-atu">
+                                                    <rect key="frame" x="48" y="37" width="358" height="51"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="man-cycling.png" translatesAutoresizingMaskIntoConstraints="NO" id="IaB-y3-udn">
+                                                    <rect key="frame" x="8" y="43" width="40" height="42"/>
+                                                </imageView>
+                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="123" id="T4R-ya-uOq">
@@ -284,6 +305,17 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T4R-ya-uOq" id="aQO-kR-ErC">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="122"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tiempo en el que se eliminaran los videos..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcM-x7-qYU">
+                                                    <rect key="frame" x="47" y="35" width="369" height="51"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="video.png" translatesAutoresizingMaskIntoConstraints="NO" id="KJf-Hh-NBW">
+                                                    <rect key="frame" x="8" y="43" width="36" height="35"/>
+                                                </imageView>
+                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="bCd-Op-yNE">
@@ -292,6 +324,17 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bCd-Op-yNE" id="A9B-jG-DKO">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="130"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Numero de notificaciones al dia.." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPB-HO-zD4">
+                                                    <rect key="frame" x="46" y="39" width="360" height="51"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="notifications.png" translatesAutoresizingMaskIntoConstraints="NO" id="ohW-QS-lu4">
+                                                    <rect key="frame" x="8" y="46" width="39" height="37"/>
+                                                </imageView>
+                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -302,7 +345,7 @@
                             <outlet property="delegate" destination="5KQ-pi-8ni" id="5eA-CM-TK3"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="fZP-hr-XLt"/>
+                    <navigationItem key="navigationItem" title="Configuracion" id="fZP-hr-XLt"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -598,7 +641,11 @@
         <image name="agenda.png" width="512" height="512"/>
         <image name="alarma.png" width="256" height="256"/>
         <image name="calendario.png" width="512" height="512"/>
+        <image name="configuracion.png" width="256" height="256"/>
         <image name="cronometro-150x150.png" width="150" height="150"/>
+        <image name="man-cycling.png" width="512" height="512"/>
+        <image name="notifications.png" width="512" height="512"/>
+        <image name="video.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="gxd-4C-Dtv"/>
