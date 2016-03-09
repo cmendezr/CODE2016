@@ -500,10 +500,11 @@
                             <outlet property="delegate" destination="AML-Yr-JFW" id="s5j-Ji-TyD"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="Mx4-7y-fbj"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rQD-oP-PeZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="871" y="1321"/>
+            <point key="canvasLocation" x="962" y="1151"/>
         </scene>
         <!--Menu-->
         <scene sceneID="4Nh-dl-Wed">
@@ -577,7 +578,7 @@
                                 <rect key="frame" x="243" y="393" width="92" height="89"/>
                                 <state key="normal" image="cronometro-150x150.png"/>
                                 <connections>
-                                    <segue destination="AML-Yr-JFW" kind="show" id="EeJ-pn-a7D"/>
+                                    <segue destination="AML-Yr-JFW" kind="push" id="cbZ-rV-Crw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cronometro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Otd-j7-blW">
@@ -693,7 +694,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RC9-ds-ScN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1427" y="1321"/>
+            <point key="canvasLocation" x="1453" y="1299"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8Od-sW-I3r">
