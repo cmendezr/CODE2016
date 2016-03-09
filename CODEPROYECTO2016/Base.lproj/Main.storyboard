@@ -912,8 +912,8 @@
         <image name="video.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Pah-iw-awG"/>
         <segue reference="yxi-1Y-D5n"/>
-        <segue reference="EyU-v7-hdo"/>
+        <segue reference="Pah-iw-awG"/>
+        <segue reference="gs2-Y5-kGB"/>
     </inferredMetricsTieBreakers>
 </document>
