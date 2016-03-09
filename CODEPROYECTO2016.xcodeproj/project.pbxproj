@@ -28,6 +28,17 @@
 		41A8FDB21C908B8000F59FE7 /* plato.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDB11C908B8000F59FE7 /* plato.png */; };
 		41A8FDB41C908FE500F59FE7 /* completado.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDB31C908FE500F59FE7 /* completado.png */; };
 		41A8FDB61C909DD600F59FE7 /* Estrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDB51C909DD600F59FE7 /* Estrella.png */; };
+		41A8FDB81C90C93200F59FE7 /* vasoss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDB71C90C93200F59FE7 /* vasoss.jpg */; };
+		41A8FDBA1C90CAC900F59FE7 /* vlleno.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDB91C90CAC900F59FE7 /* vlleno.png */; };
+		41A8FDBC1C90CAD000F59FE7 /* vVacio.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDBB1C90CAD000F59FE7 /* vVacio.png */; };
+		41A8FDC61C90D36100F59FE7 /* nivel3gris.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDBE1C90D36100F59FE7 /* nivel3gris.png */; };
+		41A8FDC71C90D36100F59FE7 /* nivel2-rosa.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDBF1C90D36100F59FE7 /* nivel2-rosa.png */; };
+		41A8FDC81C90D36100F59FE7 /* nivel1-rosa.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDC01C90D36100F59FE7 /* nivel1-rosa.png */; };
+		41A8FDC91C90D36100F59FE7 /* nivel3-rosa.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDC11C90D36100F59FE7 /* nivel3-rosa.png */; };
+		41A8FDCA1C90D36100F59FE7 /* nivel3.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDC21C90D36100F59FE7 /* nivel3.png */; };
+		41A8FDCB1C90D36100F59FE7 /* nivel2gris.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDC31C90D36100F59FE7 /* nivel2gris.png */; };
+		41A8FDCC1C90D36100F59FE7 /* nivel2.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDC41C90D36100F59FE7 /* nivel2.png */; };
+		41A8FDCD1C90D36100F59FE7 /* nivel.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDC51C90D36100F59FE7 /* nivel.png */; };
 		41B788ED1C8F349F001F6E4F /* LogoPrincipal.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B788EC1C8F349F001F6E4F /* LogoPrincipal.png */; };
 		41FE66551C8E4F390052A48E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE66541C8E4F390052A48E /* main.m */; };
 		41FE66581C8E4F390052A48E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE66571C8E4F390052A48E /* AppDelegate.m */; };
@@ -82,6 +93,17 @@
 		41A8FDB11C908B8000F59FE7 /* plato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plato.png; sourceTree = "<group>"; };
 		41A8FDB31C908FE500F59FE7 /* completado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = completado.png; sourceTree = "<group>"; };
 		41A8FDB51C909DD600F59FE7 /* Estrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Estrella.png; sourceTree = "<group>"; };
+		41A8FDB71C90C93200F59FE7 /* vasoss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vasoss.jpg; sourceTree = "<group>"; };
+		41A8FDB91C90CAC900F59FE7 /* vlleno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vlleno.png; sourceTree = "<group>"; };
+		41A8FDBB1C90CAD000F59FE7 /* vVacio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vVacio.png; sourceTree = "<group>"; };
+		41A8FDBE1C90D36100F59FE7 /* nivel3gris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nivel3gris.png; sourceTree = "<group>"; };
+		41A8FDBF1C90D36100F59FE7 /* nivel2-rosa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nivel2-rosa.png"; sourceTree = "<group>"; };
+		41A8FDC01C90D36100F59FE7 /* nivel1-rosa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nivel1-rosa.png"; sourceTree = "<group>"; };
+		41A8FDC11C90D36100F59FE7 /* nivel3-rosa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nivel3-rosa.png"; sourceTree = "<group>"; };
+		41A8FDC21C90D36100F59FE7 /* nivel3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nivel3.png; sourceTree = "<group>"; };
+		41A8FDC31C90D36100F59FE7 /* nivel2gris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nivel2gris.png; sourceTree = "<group>"; };
+		41A8FDC41C90D36100F59FE7 /* nivel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nivel2.png; sourceTree = "<group>"; };
+		41A8FDC51C90D36100F59FE7 /* nivel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nivel.png; sourceTree = "<group>"; };
 		41B788EC1C8F349F001F6E4F /* LogoPrincipal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoPrincipal.png; sourceTree = "<group>"; };
 		41FE66501C8E4F390052A48E /* CODEPROYECTO2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CODEPROYECTO2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FE66541C8E4F390052A48E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -128,6 +150,10 @@
 		4114CE0D1C8F47F900A6FEC3 /* imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				41A8FDBD1C90D29900F59FE7 /* reto_bici */,
+				41A8FDBB1C90CAD000F59FE7 /* vVacio.png */,
+				41A8FDB91C90CAC900F59FE7 /* vlleno.png */,
+				41A8FDB71C90C93200F59FE7 /* vasoss.jpg */,
 				41A8FDB51C909DD600F59FE7 /* Estrella.png */,
 				41A8FDB31C908FE500F59FE7 /* completado.png */,
 				41A8FDB11C908B8000F59FE7 /* plato.png */,
@@ -147,6 +173,21 @@
 				4114CE061C8F47F000A6FEC3 /* salud.png */,
 			);
 			name = imagenes;
+			sourceTree = "<group>";
+		};
+		41A8FDBD1C90D29900F59FE7 /* reto_bici */ = {
+			isa = PBXGroup;
+			children = (
+				41A8FDBE1C90D36100F59FE7 /* nivel3gris.png */,
+				41A8FDBF1C90D36100F59FE7 /* nivel2-rosa.png */,
+				41A8FDC01C90D36100F59FE7 /* nivel1-rosa.png */,
+				41A8FDC11C90D36100F59FE7 /* nivel3-rosa.png */,
+				41A8FDC21C90D36100F59FE7 /* nivel3.png */,
+				41A8FDC31C90D36100F59FE7 /* nivel2gris.png */,
+				41A8FDC41C90D36100F59FE7 /* nivel2.png */,
+				41A8FDC51C90D36100F59FE7 /* nivel.png */,
+			);
+			name = reto_bici;
 			sourceTree = "<group>";
 		};
 		41FE66471C8E4F390052A48E = {
@@ -327,14 +368,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4114CE0A1C8F47F000A6FEC3 /* cronometro-150x150.png in Resources */,
+				41A8FDC71C90D36100F59FE7 /* nivel2-rosa.png in Resources */,
 				41A8FDB41C908FE500F59FE7 /* completado.png in Resources */,
 				41FE66631C8E4F390052A48E /* LaunchScreen.storyboard in Resources */,
+				41A8FDCA1C90D36100F59FE7 /* nivel3.png in Resources */,
 				4114CE071C8F47F000A6FEC3 /* agenda.png in Resources */,
 				41FE66601C8E4F390052A48E /* Assets.xcassets in Resources */,
 				41A8FDA71C9079DD00F59FE7 /* man-cycling.png in Resources */,
+				41A8FDC91C90D36100F59FE7 /* nivel3-rosa.png in Resources */,
 				4114CE0C1C8F47F000A6FEC3 /* salud.png in Resources */,
 				522082F61C8F92B60080F816 /* boy-512.png in Resources */,
+				41A8FDCB1C90D36100F59FE7 /* nivel2gris.png in Resources */,
 				4114CE091C8F47F000A6FEC3 /* calendario.png in Resources */,
+				41A8FDCC1C90D36100F59FE7 /* nivel2.png in Resources */,
 				41A8FDB61C909DD600F59FE7 /* Estrella.png in Resources */,
 				4114CE0B1C8F47F000A6FEC3 /* Retos.png in Resources */,
 				41FE665E1C8E4F390052A48E /* Main.storyboard in Resources */,
@@ -344,8 +390,14 @@
 				41B788ED1C8F349F001F6E4F /* LogoPrincipal.png in Resources */,
 				41A8FDA31C9079B200F59FE7 /* platolleno.png in Resources */,
 				4114CE081C8F47F000A6FEC3 /* alarma.png in Resources */,
+				41A8FDC81C90D36100F59FE7 /* nivel1-rosa.png in Resources */,
 				41A8FDA51C9079BD00F59FE7 /* platolleno - copia.png in Resources */,
+				41A8FDC61C90D36100F59FE7 /* nivel3gris.png in Resources */,
+				41A8FDBC1C90CAD000F59FE7 /* vVacio.png in Resources */,
+				41A8FDCD1C90D36100F59FE7 /* nivel.png in Resources */,
 				41A8FDAD1C907B4D00F59FE7 /* configuracion.png in Resources */,
+				41A8FDB81C90C93200F59FE7 /* vasoss.jpg in Resources */,
+				41A8FDBA1C90CAC900F59FE7 /* vlleno.png in Resources */,
 				41A8FDA11C9079A400F59FE7 /* bicicletacartel.png in Resources */,
 				41A8FDA91C9079FE00F59FE7 /* video.png in Resources */,
 			);

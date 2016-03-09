@@ -178,9 +178,14 @@ NSArray * _municipiosArray;
     UIImage *imagen =  [UIImage imageNamed:@"completado"];
     [btnCompletado setImage:imagen];
     
-    contador = [lblPuntos.text intValue] + 5;
+    contador = [lblPuntos.text intValue] + 1;
     lblPuntos.text = [NSString stringWithFormat:@"%d",contador];
     btnImages.enabled = NO;
+    
+    if(lblPuntos.text.intValue == 5) {
+        UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
+        [btnEstrella setImage:imagenE];
+    }
     
 }
 
@@ -190,11 +195,11 @@ NSArray * _municipiosArray;
     UIImage *imagen =  [UIImage imageNamed:@"completado"];
     [btnCompletado1 setImage:imagen];
     
-    contador = [lblPuntos.text intValue] + 5;
+    contador = [lblPuntos.text intValue] + 1;
     lblPuntos.text = [NSString stringWithFormat:@"%d",contador];
     btnImages1.enabled = NO;
     
-    if(lblPuntos.text.intValue == 25) {
+    if(lblPuntos.text.intValue == 5) {
         UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
         [btnEstrella setImage:imagenE];
     }
@@ -206,11 +211,11 @@ NSArray * _municipiosArray;
     UIImage *imagen =  [UIImage imageNamed:@"completado"];
     [btnCompletado2 setImage:imagen];
     
-    contador = [lblPuntos.text intValue] + 5;
+    contador = [lblPuntos.text intValue] + 1;
     lblPuntos.text = [NSString stringWithFormat:@"%d",contador];
     btnImages2.enabled = NO;
     
-    if(lblPuntos.text.intValue == 25) {
+    if(lblPuntos.text.intValue == 5) {
         UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
         [btnEstrella setImage:imagenE];
     }
@@ -222,11 +227,11 @@ NSArray * _municipiosArray;
     UIImage *imagen =  [UIImage imageNamed:@"completado"];
     [btnCompletado3 setImage:imagen];
     
-    contador = [lblPuntos.text intValue] + 5;
+    contador = [lblPuntos.text intValue] + 1;
     lblPuntos.text = [NSString stringWithFormat:@"%d",contador];
     btnImages3.enabled = NO;
     
-    if(lblPuntos.text.intValue == 25) {
+    if(lblPuntos.text.intValue == 5) {
         UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
         [btnEstrella setImage:imagenE];
     }
@@ -238,15 +243,138 @@ NSArray * _municipiosArray;
     UIImage *imagen =  [UIImage imageNamed:@"completado"];
     [btnCompletado4 setImage:imagen];
     
-    contador = [lblPuntos.text intValue] + 5;
+    contador = [lblPuntos.text intValue] + 1;
     lblPuntos.text = [NSString stringWithFormat:@"%d",contador];
     btnImages4.enabled = NO;
     
-    if(lblPuntos.text.intValue == 25) {
+    if(lblPuntos.text.intValue == 5) {
         UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
         [btnEstrella setImage:imagenE];
     }
 }
 
+
+//***********************************************************************************************************************************************************************************************************************
+//Retos 8 Vasos
+-(IBAction)CambiarImagenVaso:(id)sender {
+    [btnVasos setImage:[UIImage imageNamed:@"vlleno.png"] forState:UIControlStateNormal];
+    
+    UIImage *imagen =  [UIImage imageNamed:@"completado"];
+    [btnCompletadoV setImage:imagen];
+    
+    contadorV = [lblPuntosV.text intValue] + 1;
+    lblPuntosV.text = [NSString stringWithFormat:@"%d",contadorV];
+    btnVasos.enabled = NO;
+    
+    if(lblPuntosV.text.intValue == 8) {
+        UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
+        [btnEstrellaV setImage:imagenE];
+    }
+}
+-(IBAction)CambiarImagenVaso1:(id)sender {
+    [btnVasos1 setImage:[UIImage imageNamed:@"vlleno.png"] forState:UIControlStateNormal];
+    
+    UIImage *imagen =  [UIImage imageNamed:@"completado"];
+    [btnCompletadoV1 setImage:imagen];
+    
+    contadorV = [lblPuntosV.text intValue] + 1;
+    lblPuntosV.text = [NSString stringWithFormat:@"%d",contadorV];
+    btnVasos1.enabled = NO;
+    
+    if(lblPuntosV.text.intValue == 8) {
+        UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
+        [btnEstrellaV setImage:imagenE];
+    }
+}
+-(IBAction)CambiarImagenVaso2:(id)sender {
+    [btnVasos2 setImage:[UIImage imageNamed:@"vlleno.png"] forState:UIControlStateNormal];
+    
+    UIImage *imagen =  [UIImage imageNamed:@"completado"];
+    [btnCompletadoV2 setImage:imagen];
+    
+    contadorV = [lblPuntosV.text intValue] + 1;
+    lblPuntosV.text = [NSString stringWithFormat:@"%d",contadorV];
+    btnVasos2.enabled = NO;
+    
+    if(lblPuntosV.text.intValue == 8) {
+        UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
+        [btnEstrellaV setImage:imagenE];
+    }
+}
+-(IBAction)CambiarImagenVaso3:(id)sender {
+    [btnVasos3 setImage:[UIImage imageNamed:@"vlleno.png"] forState:UIControlStateNormal];
+    
+    UIImage *imagen =  [UIImage imageNamed:@"completado"];
+    [btnCompletadoV3 setImage:imagen];
+    
+    contadorV = [lblPuntosV.text intValue] + 1;
+    lblPuntosV.text = [NSString stringWithFormat:@"%d",contadorV];
+    btnVasos3.enabled = NO;
+    
+    if(lblPuntosV.text.intValue == 8) {
+        UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
+        [btnEstrellaV setImage:imagenE];
+    }
+}
+-(IBAction)CambiarImagenVaso4:(id)sender {
+    [btnVasos4 setImage:[UIImage imageNamed:@"vlleno.png"] forState:UIControlStateNormal];
+    
+    UIImage *imagen =  [UIImage imageNamed:@"completado"];
+    [btnCompletadoV4 setImage:imagen];
+    
+    contadorV = [lblPuntosV.text intValue] + 1;
+    lblPuntosV.text = [NSString stringWithFormat:@"%d",contadorV];
+    btnVasos4.enabled = NO;
+    
+    if(lblPuntosV.text.intValue == 8) {
+        UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
+        [btnEstrellaV setImage:imagenE];
+    }
+}
+-(IBAction)CambiarImagenVaso5:(id)sender {
+    [btnVasos5 setImage:[UIImage imageNamed:@"vlleno.png"] forState:UIControlStateNormal];
+    
+    UIImage *imagen =  [UIImage imageNamed:@"completado"];
+    [btnCompletadoV5 setImage:imagen];
+    
+    contadorV = [lblPuntosV.text intValue] + 1;
+    lblPuntosV.text = [NSString stringWithFormat:@"%d",contadorV];
+    btnVasos5.enabled = NO;
+    
+    if(lblPuntosV.text.intValue == 8) {
+        UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
+        [btnEstrellaV setImage:imagenE];
+    }
+}
+-(IBAction)CambiarImagenVaso6:(id)sender {
+    [btnVasos6 setImage:[UIImage imageNamed:@"vlleno.png"] forState:UIControlStateNormal];
+    
+    UIImage *imagen =  [UIImage imageNamed:@"completado"];
+    [btnCompletadoV6 setImage:imagen];
+    
+    contadorV = [lblPuntosV.text intValue] + 1;
+    lblPuntosV.text = [NSString stringWithFormat:@"%d",contadorV];
+    btnVasos6.enabled = NO;
+    
+    if(lblPuntosV.text.intValue == 8) {
+        UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
+        [btnEstrellaV setImage:imagenE];
+    }
+}
+-(IBAction)CambiarImagenVaso7:(id)sender {
+    [btnVasos7 setImage:[UIImage imageNamed:@"vlleno.png"] forState:UIControlStateNormal];
+    
+    UIImage *imagen =  [UIImage imageNamed:@"completado"];
+    [btnCompletadoV7 setImage:imagen];
+    
+    contadorV = [lblPuntosV.text intValue] + 1;
+    lblPuntosV.text = [NSString stringWithFormat:@"%d",contadorV];
+    btnVasos7.enabled = NO;
+    
+    if(lblPuntosV.text.intValue == 8) {
+        UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
+        [btnEstrellaV setImage:imagenE];
+    }
+}
 
 @end
