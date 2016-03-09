@@ -313,7 +313,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="381" height="159"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Retos.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Hz-s1-zlV">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="platolleno.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Hz-s1-zlV">
                                                     <rect key="frame" x="81" y="14" width="252" height="131"/>
                                                 </imageView>
                                             </subviews>
@@ -329,7 +329,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="144"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Retos.png" translatesAutoresizingMaskIntoConstraints="NO" id="BBu-SK-sHY">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bicicletacartel.png" translatesAutoresizingMaskIntoConstraints="NO" id="BBu-SK-sHY">
                                                     <rect key="frame" x="68" y="18" width="279" height="108"/>
                                                 </imageView>
                                             </subviews>
@@ -886,17 +886,19 @@
         <image name="Retos.png" width="150" height="150"/>
         <image name="agenda.png" width="512" height="512"/>
         <image name="alarma.png" width="256" height="256"/>
+        <image name="bicicletacartel.png" width="425" height="425"/>
         <image name="boy-512.png" width="512" height="512"/>
         <image name="calendario.png" width="512" height="512"/>
         <image name="configuracion.png" width="256" height="256"/>
         <image name="cronometro-150x150.png" width="150" height="150"/>
         <image name="man-cycling.png" width="512" height="512"/>
         <image name="notifications.png" width="512" height="512"/>
+        <image name="platolleno.png" width="325" height="206"/>
         <image name="video.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Pah-iw-awG"/>
         <segue reference="yxi-1Y-D5n"/>
-        <segue reference="EyU-v7-hdo"/>
+        <segue reference="gs2-Y5-kGB"/>
     </inferredMetricsTieBreakers>
 </document>
