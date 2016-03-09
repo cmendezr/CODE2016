@@ -371,20 +371,6 @@
                     <view key="view" contentMode="scaleToFill" id="gq5-Uf-Ysd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plato.png" translatesAutoresizingMaskIntoConstraints="NO" id="iub-of-KUg">
-                                <rect key="frame" x="20" y="101" width="158" height="116"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plato.png" translatesAutoresizingMaskIntoConstraints="NO" id="qbH-Qn-dHC">
-                                <rect key="frame" x="20" y="410" width="158" height="116"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plato.png" translatesAutoresizingMaskIntoConstraints="NO" id="blH-Kt-YBi">
-                                <rect key="frame" x="236" y="410" width="158" height="116"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plato.png" translatesAutoresizingMaskIntoConstraints="NO" id="ci3-DZ-zGh">
-                                <rect key="frame" x="236" y="101" width="158" height="116"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Comida" id="qcD-0D-CbK"/>
@@ -900,14 +886,13 @@
         <image name="Retos.png" width="150" height="150"/>
         <image name="agenda.png" width="512" height="512"/>
         <image name="alarma.png" width="256" height="256"/>
-        <image name="bicicletacartel.png" width="800" height="800"/>
+        <image name="bicicletacartel.png" width="425" height="425"/>
         <image name="boy-512.png" width="512" height="512"/>
         <image name="calendario.png" width="512" height="512"/>
         <image name="configuracion.png" width="256" height="256"/>
         <image name="cronometro-150x150.png" width="150" height="150"/>
         <image name="man-cycling.png" width="512" height="512"/>
         <image name="notifications.png" width="512" height="512"/>
-        <image name="plato.png" width="317" height="193"/>
         <image name="platolleno.png" width="325" height="206"/>
         <image name="video.png" width="512" height="512"/>
     </resources>
