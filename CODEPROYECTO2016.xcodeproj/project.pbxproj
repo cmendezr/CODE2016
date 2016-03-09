@@ -48,6 +48,7 @@
 		41FE666E1C8E4F390052A48E /* CODEPROYECTO2016Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE666D1C8E4F390052A48E /* CODEPROYECTO2016Tests.m */; };
 		41FE66791C8E4F390052A48E /* CODEPROYECTO2016UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE66781C8E4F390052A48E /* CODEPROYECTO2016UITests.m */; };
 		522082F61C8F92B60080F816 /* boy-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 522082F51C8F92B60080F816 /* boy-512.png */; };
+		522082F81C90CBF50080F816 /* bascula.png in Resources */ = {isa = PBXBuildFile; fileRef = 522082F71C90CBF50080F816 /* bascula.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		41FE66781C8E4F390052A48E /* CODEPROYECTO2016UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CODEPROYECTO2016UITests.m; sourceTree = "<group>"; };
 		41FE667A1C8E4F390052A48E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		522082F51C8F92B60080F816 /* boy-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boy-512.png"; sourceTree = "<group>"; };
+		522082F71C90CBF50080F816 /* bascula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bascula.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				4114CE021C8F47F000A6FEC3 /* alarma.png */,
 				4114CE031C8F47F000A6FEC3 /* calendario.png */,
 				4114CE041C8F47F000A6FEC3 /* cronometro-150x150.png */,
+				522082F71C90CBF50080F816 /* bascula.png */,
 				4114CE051C8F47F000A6FEC3 /* Retos.png */,
 				4114CE061C8F47F000A6FEC3 /* salud.png */,
 			);
@@ -377,6 +380,7 @@
 				41A8FDA71C9079DD00F59FE7 /* man-cycling.png in Resources */,
 				41A8FDC91C90D36100F59FE7 /* nivel3-rosa.png in Resources */,
 				4114CE0C1C8F47F000A6FEC3 /* salud.png in Resources */,
+				522082F81C90CBF50080F816 /* bascula.png in Resources */,
 				522082F61C8F92B60080F816 /* boy-512.png in Resources */,
 				41A8FDCB1C90D36100F59FE7 /* nivel2gris.png in Resources */,
 				4114CE091C8F47F000A6FEC3 /* calendario.png in Resources */,

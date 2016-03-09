@@ -54,6 +54,7 @@ NSArray * _municipiosArray;
     //Redondear Imagenes
     ImagenRedes.layer.cornerRadius = ImagenRedes.frame.size.width /2;
     ImagenRedes.clipsToBounds = YES;
+    
     //
 
     
