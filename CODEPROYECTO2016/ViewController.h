@@ -20,6 +20,25 @@
     IBOutlet UITextField * MunicipiosTF;
     IBOutlet UIPickerView * NuevoPicker;
     IBOutlet UIImageView * ImagenRedes;
+    //Retos
+    IBOutlet UIButton * btnImages;
+    IBOutlet UIImageView *btnCompletado;
+    IBOutlet UIImageView *btnEstrella;
+    
+    IBOutlet UIButton * btnImages1;
+    IBOutlet UIImageView *btnCompletado1;
+    
+    IBOutlet UIButton * btnImages2;
+    IBOutlet UIImageView *btnCompletado2;
+    
+    IBOutlet UIButton * btnImages3;
+    IBOutlet UIImageView *btnCompletado3;
+    
+    IBOutlet UIButton * btnImages4;
+    IBOutlet UIImageView *btnCompletado4;
+    
+    IBOutlet NSInteger *contador;
+    IBOutlet UILabel *lblPuntos;
     
     //Arreglo 1
     NSArray *datos;
@@ -44,6 +63,13 @@
 
 
 - (IBAction)Entrar:(id)sender;
+
+//Retos
+- (IBAction)CambiarImagen:(id)sender;
+- (IBAction)CambiarImagen1:(id)sender;
+- (IBAction)CambiarImagen2:(id)sender;
+- (IBAction)CambiarImagen3:(id)sender;
+- (IBAction)CambiarImagen4:(id)sender;
 
 @end
 
