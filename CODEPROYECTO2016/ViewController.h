@@ -19,6 +19,8 @@
     IBOutlet UITextField * EstadoTF;
     IBOutlet UITextField * MunicipiosTF;
     IBOutlet UIPickerView * NuevoPicker;
+    IBOutlet UIImageView * ImagenRedes;
+    
     //Arreglo 1
     NSArray *datos;
     IBOutlet UIPickerView *picker;
