@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>{
+@interface ViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource,UIScrollViewDelegate>{
 
     
     IBOutlet UINavigationBar * InSesiontxt;
@@ -37,6 +37,7 @@
     
 }
 @property (copy,nonatomic) NSArray * datosTablaTiempos;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 
 -(IBAction)obtenHora:(id)sender;
 
