@@ -40,6 +40,28 @@
     IBOutlet NSInteger *contador;
     IBOutlet UILabel *lblPuntos;
     
+    //RETOS VASOS CON AGUA
+    IBOutlet UIButton *btnVasos;
+    IBOutlet UIImageView *btnCompletadoV;
+    IBOutlet UIImageView *btnEstrellaV;
+    IBOutlet UIButton *btnVasos1;
+    IBOutlet UIImageView *btnCompletadoV1;
+    IBOutlet UIButton *btnVasos2;
+    IBOutlet UIImageView *btnCompletadoV2;
+    IBOutlet UIButton *btnVasos3;
+    IBOutlet UIImageView *btnCompletadoV3;
+    IBOutlet UIButton *btnVasos4;
+    IBOutlet UIImageView *btnCompletadoV4;
+    IBOutlet UIButton *btnVasos5;
+    IBOutlet UIImageView *btnCompletadoV5;
+    IBOutlet UIButton *btnVasos6;
+    IBOutlet UIImageView *btnCompletadoV6;
+    IBOutlet UIButton *btnVasos7;
+    IBOutlet UIImageView *btnCompletadoV7;
+    
+    IBOutlet NSInteger *contadorV;
+    IBOutlet UILabel *lblPuntosV;
+    
     //Arreglo 1
     NSArray *datos;
     IBOutlet UIPickerView *picker;
@@ -71,6 +93,17 @@
 - (IBAction)CambiarImagen2:(id)sender;
 - (IBAction)CambiarImagen3:(id)sender;
 - (IBAction)CambiarImagen4:(id)sender;
+
+//Retos vasos
+- (IBAction)CambiarImagenVaso:(id)sender;
+- (IBAction)CambiarImagenVaso1:(id)sender;
+- (IBAction)CambiarImagenVaso2:(id)sender;
+- (IBAction)CambiarImagenVaso3:(id)sender;
+- (IBAction)CambiarImagenVaso4:(id)sender;
+- (IBAction)CambiarImagenVaso5:(id)sender;
+- (IBAction)CambiarImagenVaso6:(id)sender;
+- (IBAction)CambiarImagenVaso7:(id)sender;
+
 
 @end
 
