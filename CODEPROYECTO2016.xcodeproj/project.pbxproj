@@ -16,6 +16,7 @@
 		4114CE0B1C8F47F000A6FEC3 /* Retos.png in Resources */ = {isa = PBXBuildFile; fileRef = 4114CE051C8F47F000A6FEC3 /* Retos.png */; };
 		4114CE0C1C8F47F000A6FEC3 /* salud.png in Resources */ = {isa = PBXBuildFile; fileRef = 4114CE061C8F47F000A6FEC3 /* salud.png */; };
 		4158AC101C8F525C0021FA62 /* AlarmaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */; };
+		415B577F1C8F83D500BC6558 /* CronoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B577E1C8F83D500BC6558 /* CronoTableViewController.m */; };
 		41B788ED1C8F349F001F6E4F /* LogoPrincipal.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B788EC1C8F349F001F6E4F /* LogoPrincipal.png */; };
 		41FE66551C8E4F390052A48E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE66541C8E4F390052A48E /* main.m */; };
 		41FE66581C8E4F390052A48E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE66571C8E4F390052A48E /* AppDelegate.m */; };
@@ -55,6 +56,8 @@
 		4114CE061C8F47F000A6FEC3 /* salud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salud.png; sourceTree = "<group>"; };
 		4158AC0E1C8F525C0021FA62 /* AlarmaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmaViewController.h; sourceTree = "<group>"; };
 		4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmaViewController.m; sourceTree = "<group>"; };
+		415B577D1C8F83D500BC6558 /* CronoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CronoTableViewController.h; sourceTree = "<group>"; };
+		415B577E1C8F83D500BC6558 /* CronoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CronoTableViewController.m; sourceTree = "<group>"; };
 		41B788EC1C8F349F001F6E4F /* LogoPrincipal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoPrincipal.png; sourceTree = "<group>"; };
 		41FE66501C8E4F390052A48E /* CODEPROYECTO2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CODEPROYECTO2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FE66541C8E4F390052A48E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 				4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */,
 				4114CDFC1C8F353F00A6FEC3 /* ViewController.h */,
 				4114CDFD1C8F353F00A6FEC3 /* ViewController.m */,
+				415B577D1C8F83D500BC6558 /* CronoTableViewController.h */,
+				415B577E1C8F83D500BC6558 /* CronoTableViewController.m */,
 				41B788EC1C8F349F001F6E4F /* LogoPrincipal.png */,
 				41FE66561C8E4F390052A48E /* AppDelegate.h */,
 				41FE66571C8E4F390052A48E /* AppDelegate.m */,
@@ -322,6 +327,7 @@
 				41FE66581C8E4F390052A48E /* AppDelegate.m in Sources */,
 				4158AC101C8F525C0021FA62 /* AlarmaViewController.m in Sources */,
 				41FE66551C8E4F390052A48E /* main.m in Sources */,
+				415B577F1C8F83D500BC6558 /* CronoTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

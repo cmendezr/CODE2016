@@ -171,6 +171,34 @@
             </objects>
             <point key="canvasLocation" x="1031" y="429"/>
         </scene>
+        <!--Crono Table View Controller-->
+        <scene sceneID="LxA-bh-l6c">
+            <objects>
+                <tableViewController id="AML-Yr-JFW" customClass="CronoTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="FCr-3h-JDm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="aJQ-Q0-7aF">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aJQ-Q0-7aF" id="zIe-13-FYk">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="AML-Yr-JFW" id="SaZ-4m-ozW"/>
+                            <outlet property="delegate" destination="AML-Yr-JFW" id="s5j-Ji-TyD"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rQD-oP-PeZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1878" y="-469"/>
+        </scene>
         <!--Menu-->
         <scene sceneID="4Nh-dl-Wed">
             <objects>
@@ -242,6 +270,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfx-SJ-KQB">
                                 <rect key="frame" x="243" y="393" width="92" height="89"/>
                                 <state key="normal" image="cronometro-150x150.png"/>
+                                <connections>
+                                    <segue destination="AML-Yr-JFW" kind="show" id="EeJ-pn-a7D"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cronometro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Otd-j7-blW">
                                 <rect key="frame" x="243" y="480" width="92" height="21"/>
@@ -601,7 +632,7 @@
         <image name="cronometro-150x150.png" width="150" height="150"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gxd-4C-Dtv"/>
+        <segue reference="OM3-AE-e2i"/>
         <segue reference="gs2-Y5-kGB"/>
     </inferredMetricsTieBreakers>
 </document>

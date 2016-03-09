@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource> {
+@interface ViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>{
 
+    
     IBOutlet UINavigationBar * InSesiontxt;
     IBOutlet UITextField * Correo;
     IBOutlet UITextField * Contraseña;
@@ -23,6 +24,7 @@
     IBOutlet UIPickerView *picker;
     
     
+    
     //Arreglo 2
     NSArray *datos2;
     IBOutlet UIPickerView *picker2;
@@ -32,6 +34,7 @@
     IBOutlet UILabel *lblHora;
     
 }
+@property (copy,nonatomic) NSArray * datosTablaTiempos;
 
 -(IBAction)obtenHora:(id)sender;
 

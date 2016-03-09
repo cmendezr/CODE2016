@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CronoTableViewController.h"
 
 @interface ViewController ()
 
@@ -88,6 +89,9 @@ NSArray * _municipiosArray;
     //Picker Estados Termina
     
     // Do any additional setup after loading the view, typically from a nib.
+    // AGRUEGAR DATOS A LA TABLA PARA LA VISTA DEL CRONOMETRO
+    
+    
 }
 
 //Metodos para picker fecha de nacimiento.
@@ -161,5 +165,7 @@ NSArray * _municipiosArray;
     NSString *dateString = [dateFormat stringFromDate:event];
     
 }
+
+
 
 @end
