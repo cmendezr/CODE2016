@@ -488,7 +488,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Hs2-5k-IW9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Oon-vA-VkI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="v0Y-qZ-8z4">
