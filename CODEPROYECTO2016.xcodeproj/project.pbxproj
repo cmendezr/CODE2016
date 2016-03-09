@@ -25,6 +25,9 @@
 		41A8FDAB1C907A1D00F59FE7 /* notifications.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDAA1C907A1D00F59FE7 /* notifications.png */; };
 		41A8FDAD1C907B4D00F59FE7 /* configuracion.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDAC1C907B4D00F59FE7 /* configuracion.png */; };
 		41A8FDB01C907D0800F59FE7 /* ConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A8FDAF1C907D0800F59FE7 /* ConfigurationViewController.m */; };
+		41A8FDB21C908B8000F59FE7 /* plato.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDB11C908B8000F59FE7 /* plato.png */; };
+		41A8FDB41C908FE500F59FE7 /* completado.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDB31C908FE500F59FE7 /* completado.png */; };
+		41A8FDB61C909DD600F59FE7 /* Estrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDB51C909DD600F59FE7 /* Estrella.png */; };
 		41B788ED1C8F349F001F6E4F /* LogoPrincipal.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B788EC1C8F349F001F6E4F /* LogoPrincipal.png */; };
 		41FE66551C8E4F390052A48E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE66541C8E4F390052A48E /* main.m */; };
 		41FE66581C8E4F390052A48E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE66571C8E4F390052A48E /* AppDelegate.m */; };
@@ -76,6 +79,9 @@
 		41A8FDAC1C907B4D00F59FE7 /* configuracion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configuracion.png; sourceTree = "<group>"; };
 		41A8FDAE1C907CF500F59FE7 /* ConfigurationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigurationViewController.h; sourceTree = "<group>"; };
 		41A8FDAF1C907D0800F59FE7 /* ConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationViewController.m; sourceTree = "<group>"; };
+		41A8FDB11C908B8000F59FE7 /* plato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plato.png; sourceTree = "<group>"; };
+		41A8FDB31C908FE500F59FE7 /* completado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = completado.png; sourceTree = "<group>"; };
+		41A8FDB51C909DD600F59FE7 /* Estrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Estrella.png; sourceTree = "<group>"; };
 		41B788EC1C8F349F001F6E4F /* LogoPrincipal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoPrincipal.png; sourceTree = "<group>"; };
 		41FE66501C8E4F390052A48E /* CODEPROYECTO2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CODEPROYECTO2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FE66541C8E4F390052A48E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -122,6 +128,9 @@
 		4114CE0D1C8F47F900A6FEC3 /* imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				41A8FDB51C909DD600F59FE7 /* Estrella.png */,
+				41A8FDB31C908FE500F59FE7 /* completado.png */,
+				41A8FDB11C908B8000F59FE7 /* plato.png */,
 				41A8FDAC1C907B4D00F59FE7 /* configuracion.png */,
 				41A8FDAA1C907A1D00F59FE7 /* notifications.png */,
 				41A8FDA81C9079FE00F59FE7 /* video.png */,
@@ -318,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4114CE0A1C8F47F000A6FEC3 /* cronometro-150x150.png in Resources */,
+				41A8FDB41C908FE500F59FE7 /* completado.png in Resources */,
 				41FE66631C8E4F390052A48E /* LaunchScreen.storyboard in Resources */,
 				4114CE071C8F47F000A6FEC3 /* agenda.png in Resources */,
 				41FE66601C8E4F390052A48E /* Assets.xcassets in Resources */,
@@ -325,10 +335,12 @@
 				4114CE0C1C8F47F000A6FEC3 /* salud.png in Resources */,
 				522082F61C8F92B60080F816 /* boy-512.png in Resources */,
 				4114CE091C8F47F000A6FEC3 /* calendario.png in Resources */,
+				41A8FDB61C909DD600F59FE7 /* Estrella.png in Resources */,
 				4114CE0B1C8F47F000A6FEC3 /* Retos.png in Resources */,
 				41FE665E1C8E4F390052A48E /* Main.storyboard in Resources */,
 				41A8FDAB1C907A1D00F59FE7 /* notifications.png in Resources */,
 				4114CE001C8F366600A6FEC3 /* LogoPrincipal.png in Resources */,
+				41A8FDB21C908B8000F59FE7 /* plato.png in Resources */,
 				41B788ED1C8F349F001F6E4F /* LogoPrincipal.png in Resources */,
 				41A8FDA31C9079B200F59FE7 /* platolleno.png in Resources */,
 				4114CE081C8F47F000A6FEC3 /* alarma.png in Resources */,
