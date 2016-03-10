@@ -22,12 +22,11 @@
 		41169ECE1C91DB5F0038FDDB /* vasoss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41169EC31C91DB5F0038FDDB /* vasoss.jpg */; };
 		41169ECF1C91DB5F0038FDDB /* vlleno.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169EC41C91DB5F0038FDDB /* vlleno.png */; };
 		41169ED41C9202040038FDDB /* nina.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169ED31C9202040038FDDB /* nina.png */; };
-		41169ED71C9202900038FDDB /* alarma.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169ED61C9202900038FDDB /* alarma.png */; };
-		41169ED91C9202C40038FDDB /* calendario.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169ED81C9202C40038FDDB /* calendario.png */; };
-		41169EDB1C9203750038FDDB /* configuracion.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169EDA1C9203750038FDDB /* configuracion.png */; };
-		41169EDD1C9203BE0038FDDB /* retos.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169EDC1C9203BE0038FDDB /* retos.png */; };
-		41169EDF1C92040E0038FDDB /* contador.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169EDE1C92040E0038FDDB /* contador.png */; };
-		41169EE11C920BF00038FDDB /* retos.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169EE01C920BF00038FDDB /* retos.png */; };
+		41169EE71C9239AD0038FDDB /* alarma.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169EE21C9239AD0038FDDB /* alarma.png */; };
+		41169EE81C9239AD0038FDDB /* calendario.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169EE31C9239AD0038FDDB /* calendario.png */; };
+		41169EE91C9239AD0038FDDB /* configuracion.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169EE41C9239AD0038FDDB /* configuracion.png */; };
+		41169EEA1C9239AD0038FDDB /* contador.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169EE51C9239AD0038FDDB /* contador.png */; };
+		41169EEB1C9239AD0038FDDB /* retos.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169EE61C9239AD0038FDDB /* retos.png */; };
 		4158AC101C8F525C0021FA62 /* AlarmaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */; };
 		415B577F1C8F83D500BC6558 /* CronoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B577E1C8F83D500BC6558 /* CronoTableViewController.m */; };
 		415B57831C90CE7900BC6558 /* max_galeria_000@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 415B57821C90CE7900BC6558 /* max_galeria_000@2x.jpg */; };
@@ -103,12 +102,11 @@
 		41169EC31C91DB5F0038FDDB /* vasoss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vasoss.jpg; sourceTree = "<group>"; };
 		41169EC41C91DB5F0038FDDB /* vlleno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vlleno.png; sourceTree = "<group>"; };
 		41169ED31C9202040038FDDB /* nina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nina.png; sourceTree = "<group>"; };
-		41169ED61C9202900038FDDB /* alarma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarma.png; sourceTree = "<group>"; };
-		41169ED81C9202C40038FDDB /* calendario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendario.png; sourceTree = "<group>"; };
-		41169EDA1C9203750038FDDB /* configuracion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configuracion.png; sourceTree = "<group>"; };
-		41169EDC1C9203BE0038FDDB /* retos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retos.png; sourceTree = "<group>"; };
-		41169EDE1C92040E0038FDDB /* contador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contador.png; sourceTree = "<group>"; };
-		41169EE01C920BF00038FDDB /* retos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retos.png; sourceTree = "<group>"; };
+		41169EE21C9239AD0038FDDB /* alarma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarma.png; sourceTree = "<group>"; };
+		41169EE31C9239AD0038FDDB /* calendario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendario.png; sourceTree = "<group>"; };
+		41169EE41C9239AD0038FDDB /* configuracion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configuracion.png; sourceTree = "<group>"; };
+		41169EE51C9239AD0038FDDB /* contador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contador.png; sourceTree = "<group>"; };
+		41169EE61C9239AD0038FDDB /* retos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retos.png; sourceTree = "<group>"; };
 		4158AC0E1C8F525C0021FA62 /* AlarmaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmaViewController.h; sourceTree = "<group>"; };
 		4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmaViewController.m; sourceTree = "<group>"; };
 		415B577D1C8F83D500BC6558 /* CronoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CronoTableViewController.h; sourceTree = "<group>"; };
@@ -190,12 +188,6 @@
 		4114CE0D1C8F47F900A6FEC3 /* imagenes */ = {
 			isa = PBXGroup;
 			children = (
-				41169EE01C920BF00038FDDB /* retos.png */,
-				41169EDE1C92040E0038FDDB /* contador.png */,
-				41169EDC1C9203BE0038FDDB /* retos.png */,
-				41169EDA1C9203750038FDDB /* configuracion.png */,
-				41169ED81C9202C40038FDDB /* calendario.png */,
-				41169ED61C9202900038FDDB /* alarma.png */,
 				41169ED51C9202300038FDDB /* menu */,
 				41169ED01C91FB350038FDDB /* nina */,
 				41169EBA1C91DB5F0038FDDB /* nivel3gris.png */,
@@ -237,6 +229,11 @@
 		41169ED51C9202300038FDDB /* menu */ = {
 			isa = PBXGroup;
 			children = (
+				41169EE21C9239AD0038FDDB /* alarma.png */,
+				41169EE31C9239AD0038FDDB /* calendario.png */,
+				41169EE41C9239AD0038FDDB /* configuracion.png */,
+				41169EE51C9239AD0038FDDB /* contador.png */,
+				41169EE61C9239AD0038FDDB /* retos.png */,
 			);
 			name = menu;
 			sourceTree = "<group>";
@@ -432,23 +429,24 @@
 				41A8FDC71C90D36100F59FE7 /* nivel2-rosa.png in Resources */,
 				41A8FDB41C908FE500F59FE7 /* completado.png in Resources */,
 				4177E5401C920093000A4191 /* IntroBook.otf in Resources */,
+				41169EE81C9239AD0038FDDB /* calendario.png in Resources */,
 				41FE66631C8E4F390052A48E /* LaunchScreen.storyboard in Resources */,
 				41A8FDCA1C90D36100F59FE7 /* nivel3.png in Resources */,
 				41169ECF1C91DB5F0038FDDB /* vlleno.png in Resources */,
 				41FE66601C8E4F390052A48E /* Assets.xcassets in Resources */,
 				4177E53E1C920093000A4191 /* IntroBold.otf in Resources */,
+				41169EEA1C9239AD0038FDDB /* contador.png in Resources */,
 				41A8FDA71C9079DD00F59FE7 /* man-cycling.png in Resources */,
 				41A8FDC91C90D36100F59FE7 /* nivel3-rosa.png in Resources */,
 				4114CE0C1C8F47F000A6FEC3 /* salud.png in Resources */,
 				522082F81C90CBF50080F816 /* bascula.png in Resources */,
 				41169ECB1C91DB5F0038FDDB /* nivel2.png in Resources */,
 				41169ED41C9202040038FDDB /* nina.png in Resources */,
-				41169EE11C920BF00038FDDB /* retos.png in Resources */,
 				522082F61C8F92B60080F816 /* boy-512.png in Resources */,
 				41A8FDCB1C90D36100F59FE7 /* nivel2gris.png in Resources */,
 				41169ECC1C91DB5F0038FDDB /* nivel.png in Resources */,
-				41169ED91C9202C40038FDDB /* calendario.png in Resources */,
 				41169EC91C91DB5F0038FDDB /* nivel3.png in Resources */,
+				41169EE91C9239AD0038FDDB /* configuracion.png in Resources */,
 				41A8FDCC1C90D36100F59FE7 /* nivel2.png in Resources */,
 				41A8FDB61C909DD600F59FE7 /* Estrella.png in Resources */,
 				41FE665E1C8E4F390052A48E /* Main.storyboard in Resources */,
@@ -459,22 +457,20 @@
 				41B788ED1C8F349F001F6E4F /* LogoPrincipal.png in Resources */,
 				41A8FDA31C9079B200F59FE7 /* platolleno.png in Resources */,
 				41169EC71C91DB5F0038FDDB /* nivel1-rosa.png in Resources */,
-				41169EDF1C92040E0038FDDB /* contador.png in Resources */,
 				41169EC81C91DB5F0038FDDB /* nivel3-rosa.png in Resources */,
-				41169EDD1C9203BE0038FDDB /* retos.png in Resources */,
 				41169ECD1C91DB5F0038FDDB /* vVacio.png in Resources */,
 				41A8FDC81C90D36100F59FE7 /* nivel1-rosa.png in Resources */,
 				41A8FDA51C9079BD00F59FE7 /* platolleno - copia.png in Resources */,
-				41169EDB1C9203750038FDDB /* configuracion.png in Resources */,
 				41A8FDC61C90D36100F59FE7 /* nivel3gris.png in Resources */,
 				41169ECA1C91DB5F0038FDDB /* nivel2gris.png in Resources */,
-				41169ED71C9202900038FDDB /* alarma.png in Resources */,
 				41A8FDBC1C90CAD000F59FE7 /* vVacio.png in Resources */,
 				41A8FDCD1C90D36100F59FE7 /* nivel.png in Resources */,
+				41169EEB1C9239AD0038FDDB /* retos.png in Resources */,
 				41169EC61C91DB5F0038FDDB /* nivel2-rosa.png in Resources */,
 				41A8FDB81C90C93200F59FE7 /* vasoss.jpg in Resources */,
 				41169EC51C91DB5F0038FDDB /* nivel3gris.png in Resources */,
 				41A8FDBA1C90CAC900F59FE7 /* vlleno.png in Resources */,
+				41169EE71C9239AD0038FDDB /* alarma.png in Resources */,
 				41A8FDA11C9079A400F59FE7 /* bicicletacartel.png in Resources */,
 				415B57831C90CE7900BC6558 /* max_galeria_000@2x.jpg in Resources */,
 				4177E53F1C920093000A4191 /* introbold.ttf in Resources */,
