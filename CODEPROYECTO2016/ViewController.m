@@ -51,6 +51,7 @@ NSArray * _municipiosArray;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     CAGradientLayer *bgLayer  = [BackgroundLayer blueGradient];
     bgLayer.frame = self.view.bounds;
     [self.view.layer insertSublayer:bgLayer atIndex:0];

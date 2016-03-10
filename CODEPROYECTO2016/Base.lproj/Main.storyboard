@@ -12,6 +12,27 @@
             <string>Intro-Bold</string>
             <string>Intro-Bold</string>
             <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+        </mutableArray>
+        <mutableArray key="introbook.ttf">
+            <string>Intro-Book</string>
+            <string>Intro-Book</string>
+            <string>Intro-Book</string>
+            <string>Intro-Book</string>
+            <string>Intro-Book</string>
+            <string>Intro-Book</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -43,7 +64,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HaN-tu-64U">
                                 <rect key="frame" x="20" y="409" width="374" height="30"/>
                                 <color key="backgroundColor" red="0.99583703279495239" green="0.63839936256408691" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="15"/>
                                 <state key="normal" title="Entrar">
                                     <color key="titleColor" red="0.9959825873374939" green="0.99621325731277466" blue="0.99187678098678589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -55,6 +76,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBW-g5-KrY">
                                 <rect key="frame" x="20" y="549" width="374" height="30"/>
                                 <color key="backgroundColor" red="0.12788987159729004" green="0.39414447546005249" blue="0.93991237878799438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="15"/>
                                 <state key="normal" title="Facebook">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -65,6 +87,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cei-rm-Tlj">
                                 <rect key="frame" x="20" y="587" width="374" height="30"/>
                                 <color key="backgroundColor" red="0.99932795763015747" green="0.16288802027702332" blue="0.0070631876587867737" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="15"/>
                                 <state key="normal" title="Google">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -75,6 +98,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fY0-8Z-Xq8">
                                 <rect key="frame" x="20" y="625" width="374" height="30"/>
                                 <color key="backgroundColor" red="0.12867704033851624" green="0.906879723072052" blue="0.94269472360610962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="15"/>
                                 <state key="normal" title="Twitter">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -84,10 +108,12 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4L-Vp-UwM">
                                 <rect key="frame" x="94" y="447" width="227" height="30"/>
+                                <fontDescription key="fontDescription" name="Intro-Book" family="Intro Book" pointSize="15"/>
                                 <state key="normal" title="¿Olvidaste tu contraseña?"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjm-6b-qUl">
                                 <rect key="frame" x="94" y="471" width="227" height="30"/>
+                                <fontDescription key="fontDescription" name="Intro-Book" family="Intro Book" pointSize="15"/>
                                 <state key="normal" title="¿Aún no tienes una cuenta?"/>
                                 <connections>
                                     <segue destination="ubm-qP-mIt" kind="push" id="PeL-Pb-Uaj"/>
@@ -151,7 +177,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ahora actualizaremos tu peso." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJ4-1s-HMD">
                                 <rect key="frame" x="14" y="317" width="374" height="60"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="21"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -172,6 +198,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SfP-tb-3Di">
                                 <rect key="frame" x="20" y="468" width="374" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="15"/>
                                 <state key="normal" title="Continuar">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -181,7 +208,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nota: El peso podrá ser modificado en la pestaña de Seguimiento, en cualquier momento." lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txu-E0-eYS">
                                 <rect key="frame" x="14" y="519" width="374" height="62"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Intro-Book" family="Intro Book" pointSize="14"/>
                                 <color key="textColor" red="0.29674571399240324" green="0.29674571399240324" blue="0.29674571399240324" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -213,7 +240,7 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hemos obtenido los siguientes datos de Facebook, Si alguno no es correcto puedes modificarlo " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnI-ul-jnm">
                                 <rect key="frame" x="20" y="81" width="374" height="89"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -240,6 +267,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCD-cm-Jxa">
                                 <rect key="frame" x="20" y="541" width="374" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="15"/>
                                 <state key="normal" title="Continuar">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -249,7 +277,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nota: Recuerda intgrocucir tus datos correctamente, no podrán ser cambiados." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pu-iX-btt">
                                 <rect key="frame" x="20" y="585" width="374" height="69"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Intro-Book" family="Intro Book" pointSize="14"/>
                                 <color key="textColor" red="0.34544748040000001" green="0.34544748040000001" blue="0.34544748040000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -283,19 +311,20 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hola Usuario, ¡Bienvenido!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nT-Wd-7BW">
                                 <rect key="frame" x="13" y="385" width="374" height="21"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A continuación vamos a completar tus datos de perfil." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YoB-7X-xFP">
                                 <rect key="frame" x="20" y="414" width="374" height="79"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Intro-Book" family="Intro Book" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rbp-QF-vQH">
                                 <rect key="frame" x="20" y="518" width="374" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="15"/>
                                 <state key="normal" title="Continuar">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -448,6 +477,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htl-xl-3kE">
                                 <rect key="frame" x="20" y="458" width="374" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="15"/>
                                 <state key="normal" title="Registrar">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -517,13 +547,14 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A continuación vamos a completar tus datos de perfil." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sr0-CC-EXp">
                                 <rect key="frame" x="20" y="421" width="374" height="79"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Intro-Book" family="Intro Book" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bp2-P6-CJM">
                                 <rect key="frame" x="20" y="508" width="374" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="15"/>
                                 <state key="normal" title="Continuar">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -533,7 +564,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hola Usuario, ¡Bienvenido!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzZ-PM-AJK">
                                 <rect key="frame" x="20" y="387" width="374" height="21"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="21"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1639,7 +1670,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="dm0-Yk-TTv"/>
-        <segue reference="oI6-co-t8u"/>
+        <segue reference="ZPe-DC-umt"/>
         <segue reference="SKZ-xK-izS"/>
         <segue reference="gs2-Y5-kGB"/>
     </inferredMetricsTieBreakers>
