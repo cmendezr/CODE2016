@@ -49,6 +49,7 @@
 		41FE66791C8E4F390052A48E /* CODEPROYECTO2016UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE66781C8E4F390052A48E /* CODEPROYECTO2016UITests.m */; };
 		522082F61C8F92B60080F816 /* boy-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 522082F51C8F92B60080F816 /* boy-512.png */; };
 		522082F81C90CBF50080F816 /* bascula.png in Resources */ = {isa = PBXBuildFile; fileRef = 522082F71C90CBF50080F816 /* bascula.png */; };
+		522082FA1C90E4590080F816 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522082F91C90E4590080F816 /* EventKitUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,7 @@
 		41FE667A1C8E4F390052A48E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		522082F51C8F92B60080F816 /* boy-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boy-512.png"; sourceTree = "<group>"; };
 		522082F71C90CBF50080F816 /* bascula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bascula.png; sourceTree = "<group>"; };
+		522082F91C90E4590080F816 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522082FA1C90E4590080F816 /* EventKitUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +199,7 @@
 		41FE66471C8E4F390052A48E = {
 			isa = PBXGroup;
 			children = (
+				522082F91C90E4590080F816 /* EventKitUI.framework */,
 				4114CE0D1C8F47F900A6FEC3 /* imagenes */,
 				41FE66521C8E4F390052A48E /* CODEPROYECTO2016 */,
 				41FE666C1C8E4F390052A48E /* CODEPROYECTO2016Tests */,
