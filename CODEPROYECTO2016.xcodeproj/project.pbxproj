@@ -17,6 +17,7 @@
 		4114CE0C1C8F47F000A6FEC3 /* salud.png in Resources */ = {isa = PBXBuildFile; fileRef = 4114CE061C8F47F000A6FEC3 /* salud.png */; };
 		4158AC101C8F525C0021FA62 /* AlarmaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */; };
 		415B577F1C8F83D500BC6558 /* CronoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B577E1C8F83D500BC6558 /* CronoTableViewController.m */; };
+		415B57831C90CE7900BC6558 /* max_galeria_000@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 415B57821C90CE7900BC6558 /* max_galeria_000@2x.jpg */; };
 		41A8FDA11C9079A400F59FE7 /* bicicletacartel.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDA01C9079A400F59FE7 /* bicicletacartel.png */; };
 		41A8FDA31C9079B200F59FE7 /* platolleno.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDA21C9079B200F59FE7 /* platolleno.png */; };
 		41A8FDA51C9079BD00F59FE7 /* platolleno - copia.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDA41C9079BD00F59FE7 /* platolleno - copia.png */; };
@@ -83,6 +84,7 @@
 		4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmaViewController.m; sourceTree = "<group>"; };
 		415B577D1C8F83D500BC6558 /* CronoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CronoTableViewController.h; sourceTree = "<group>"; };
 		415B577E1C8F83D500BC6558 /* CronoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CronoTableViewController.m; sourceTree = "<group>"; };
+		415B57821C90CE7900BC6558 /* max_galeria_000@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "max_galeria_000@2x.jpg"; sourceTree = "<group>"; };
 		41A8FDA01C9079A400F59FE7 /* bicicletacartel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bicicletacartel.png; sourceTree = "<group>"; };
 		41A8FDA21C9079B200F59FE7 /* platolleno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = platolleno.png; sourceTree = "<group>"; };
 		41A8FDA41C9079BD00F59FE7 /* platolleno - copia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "platolleno - copia.png"; sourceTree = "<group>"; };
@@ -155,10 +157,7 @@
 		4114CE0D1C8F47F900A6FEC3 /* imagenes */ = {
 			isa = PBXGroup;
 			children = (
-				41A8FDBD1C90D29900F59FE7 /* reto_bici */,
-				41A8FDBB1C90CAD000F59FE7 /* vVacio.png */,
-				41A8FDB91C90CAC900F59FE7 /* vlleno.png */,
-				41A8FDB71C90C93200F59FE7 /* vasoss.jpg */,
+				415B57821C90CE7900BC6558 /* max_galeria_000@2x.jpg */,
 				41A8FDB51C909DD600F59FE7 /* Estrella.png */,
 				41A8FDB31C908FE500F59FE7 /* completado.png */,
 				41A8FDB11C908B8000F59FE7 /* plato.png */,
@@ -407,6 +406,7 @@
 				41A8FDB81C90C93200F59FE7 /* vasoss.jpg in Resources */,
 				41A8FDBA1C90CAC900F59FE7 /* vlleno.png in Resources */,
 				41A8FDA11C9079A400F59FE7 /* bicicletacartel.png in Resources */,
+				415B57831C90CE7900BC6558 /* max_galeria_000@2x.jpg in Resources */,
 				41A8FDA91C9079FE00F59FE7 /* video.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
