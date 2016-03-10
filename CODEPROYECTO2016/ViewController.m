@@ -94,7 +94,7 @@ NSArray * _municipiosArray;
     //Picker Estados Termina
     
     // Do any additional setup after loading the view, typically from a nib.
-    // AGRUEGAR DATOS A LA TABLA PARA LA VISTA DEL CRONOMETRO
+   
     
     
 }
@@ -376,6 +376,9 @@ NSArray * _municipiosArray;
         UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
         [btnEstrellaV setImage:imagenE];
     }
+    
+     // Push Notifications
+    
 }
 
 @end
