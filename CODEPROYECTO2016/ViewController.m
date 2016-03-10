@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BackgroundLayer.h"
 
 @interface ViewController ()
 
@@ -50,6 +51,9 @@ NSArray * _municipiosArray;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    CAGradientLayer *bgLayer  = [BackgroundLayer blueGradient];
+    bgLayer.frame = self.view.bounds;
+    [self.view.layer insertSublayer:bgLayer atIndex:0];
 
     //Redondear Imagenes
     ImagenRedes.layer.cornerRadius = ImagenRedes.frame.size.width /2;
@@ -377,8 +381,13 @@ NSArray * _municipiosArray;
         [btnEstrellaV setImage:imagenE];
     }
     
-     // Push Notifications
+
     
+}
+- (void) willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+{
+    // resize your layers based on the view’s new bounds
+    [[[self.view.layer sublayers] objectAtIndex:0] setFrame:self.view.bounds];
 }
 
 @end
