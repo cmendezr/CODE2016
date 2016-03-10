@@ -7,6 +7,7 @@
 //
 
 #import "CronoTableViewController.h"
+#import "BackgroundLayer.h"
 
 @interface CronoTableViewController ()
 
@@ -16,6 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    CAGradientLayer *bgLayer  = [BackgroundLayer blueGradient];
+    bgLayer.frame = self.view.bounds;
+    [self.view.layer insertSublayer:bgLayer atIndex:0];
     self.dataArrarDays = @ [@"01- 02- 2016",@"01- 02- 2016",@"01- 02- 2016",@"01- 02- 2016",@"01- 02- 2016",@"01- 02- 2016",@"01- 02- 2016",@"01- 02- 2016"];
    }
 

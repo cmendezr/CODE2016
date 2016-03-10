@@ -18,9 +18,15 @@
 		41436C341C91DD1E00D4621D /* LOGO CODE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41436C311C91DD1E00D4621D /* LOGO CODE.jpg */; };
 		41436C351C91DD1E00D4621D /* logocode.png in Resources */ = {isa = PBXBuildFile; fileRef = 41436C321C91DD1E00D4621D /* logocode.png */; };
 		41436C361C91DD1E00D4621D /* logocode2.png in Resources */ = {isa = PBXBuildFile; fileRef = 41436C331C91DD1E00D4621D /* logocode2.png */; };
+		41436C391C91E40C00D4621D /* APRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 41436C381C91E40C00D4621D /* APRoundButton.m */; };
+		41436C3C1C91EE1100D4621D /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 41436C3B1C91EE1100D4621D /* BackgroundLayer.m */; };
 		4158AC101C8F525C0021FA62 /* AlarmaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */; };
 		415B577F1C8F83D500BC6558 /* CronoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B577E1C8F83D500BC6558 /* CronoTableViewController.m */; };
 		415B57831C90CE7900BC6558 /* max_galeria_000@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 415B57821C90CE7900BC6558 /* max_galeria_000@2x.jpg */; };
+		4177E53E1C920093000A4191 /* IntroBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53A1C920093000A4191 /* IntroBold.otf */; };
+		4177E53F1C920093000A4191 /* introbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53B1C920093000A4191 /* introbold.ttf */; };
+		4177E5401C920093000A4191 /* IntroBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53C1C920093000A4191 /* IntroBook.otf */; };
+		4177E5411C920093000A4191 /* introbook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53D1C920093000A4191 /* introbook.ttf */; };
 		41A8FDA11C9079A400F59FE7 /* bicicletacartel.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDA01C9079A400F59FE7 /* bicicletacartel.png */; };
 		41A8FDA31C9079B200F59FE7 /* platolleno.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDA21C9079B200F59FE7 /* platolleno.png */; };
 		41A8FDA51C9079BD00F59FE7 /* platolleno - copia.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDA41C9079BD00F59FE7 /* platolleno - copia.png */; };
@@ -86,11 +92,19 @@
 		41436C311C91DD1E00D4621D /* LOGO CODE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LOGO CODE.jpg"; sourceTree = "<group>"; };
 		41436C321C91DD1E00D4621D /* logocode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logocode.png; sourceTree = "<group>"; };
 		41436C331C91DD1E00D4621D /* logocode2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logocode2.png; sourceTree = "<group>"; };
+		41436C371C91E40C00D4621D /* APRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRoundButton.h; sourceTree = "<group>"; };
+		41436C381C91E40C00D4621D /* APRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRoundButton.m; sourceTree = "<group>"; };
+		41436C3A1C91EE1100D4621D /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
+		41436C3B1C91EE1100D4621D /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
 		4158AC0E1C8F525C0021FA62 /* AlarmaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmaViewController.h; sourceTree = "<group>"; };
 		4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmaViewController.m; sourceTree = "<group>"; };
 		415B577D1C8F83D500BC6558 /* CronoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CronoTableViewController.h; sourceTree = "<group>"; };
 		415B577E1C8F83D500BC6558 /* CronoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CronoTableViewController.m; sourceTree = "<group>"; };
 		415B57821C90CE7900BC6558 /* max_galeria_000@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "max_galeria_000@2x.jpg"; sourceTree = "<group>"; };
+		4177E53A1C920093000A4191 /* IntroBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroBold.otf; sourceTree = "<group>"; };
+		4177E53B1C920093000A4191 /* introbold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = introbold.ttf; sourceTree = "<group>"; };
+		4177E53C1C920093000A4191 /* IntroBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroBook.otf; sourceTree = "<group>"; };
+		4177E53D1C920093000A4191 /* introbook.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = introbook.ttf; sourceTree = "<group>"; };
 		41A8FDA01C9079A400F59FE7 /* bicicletacartel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bicicletacartel.png; sourceTree = "<group>"; };
 		41A8FDA21C9079B200F59FE7 /* platolleno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = platolleno.png; sourceTree = "<group>"; };
 		41A8FDA41C9079BD00F59FE7 /* platolleno - copia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "platolleno - copia.png"; sourceTree = "<group>"; };
@@ -196,9 +210,21 @@
 			name = imagegto;
 			sourceTree = "<group>";
 		};
+		4177E5421C9200AC000A4191 /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+				4177E53A1C920093000A4191 /* IntroBold.otf */,
+				4177E53B1C920093000A4191 /* introbold.ttf */,
+				4177E53C1C920093000A4191 /* IntroBook.otf */,
+				4177E53D1C920093000A4191 /* introbook.ttf */,
+			);
+			name = Recursos;
+			sourceTree = "<group>";
+		};
 		41FE66471C8E4F390052A48E = {
 			isa = PBXGroup;
 			children = (
+				4177E5421C9200AC000A4191 /* Recursos */,
 				41436C301C91DD0600D4621D /* imagegto */,
 				522082F91C90E4590080F816 /* EventKitUI.framework */,
 				4114CE0D1C8F47F900A6FEC3 /* imagenes */,
@@ -222,12 +248,16 @@
 		41FE66521C8E4F390052A48E /* CODEPROYECTO2016 */ = {
 			isa = PBXGroup;
 			children = (
+				41436C371C91E40C00D4621D /* APRoundButton.h */,
+				41436C381C91E40C00D4621D /* APRoundButton.m */,
 				41A8FDAF1C907D0800F59FE7 /* ConfigurationViewController.m */,
 				41A8FDAE1C907CF500F59FE7 /* ConfigurationViewController.h */,
 				4158AC0E1C8F525C0021FA62 /* AlarmaViewController.h */,
 				4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */,
 				4114CDFC1C8F353F00A6FEC3 /* ViewController.h */,
 				4114CDFD1C8F353F00A6FEC3 /* ViewController.m */,
+				41436C3A1C91EE1100D4621D /* BackgroundLayer.h */,
+				41436C3B1C91EE1100D4621D /* BackgroundLayer.m */,
 				415B577D1C8F83D500BC6558 /* CronoTableViewController.h */,
 				415B577E1C8F83D500BC6558 /* CronoTableViewController.m */,
 				41B788EC1C8F349F001F6E4F /* LogoPrincipal.png */,
@@ -378,10 +408,12 @@
 				4114CE0A1C8F47F000A6FEC3 /* cronometro-150x150.png in Resources */,
 				41A8FDC71C90D36100F59FE7 /* nivel2-rosa.png in Resources */,
 				41A8FDB41C908FE500F59FE7 /* completado.png in Resources */,
+				4177E5401C920093000A4191 /* IntroBook.otf in Resources */,
 				41FE66631C8E4F390052A48E /* LaunchScreen.storyboard in Resources */,
 				41A8FDCA1C90D36100F59FE7 /* nivel3.png in Resources */,
 				4114CE071C8F47F000A6FEC3 /* agenda.png in Resources */,
 				41FE66601C8E4F390052A48E /* Assets.xcassets in Resources */,
+				4177E53E1C920093000A4191 /* IntroBold.otf in Resources */,
 				41A8FDA71C9079DD00F59FE7 /* man-cycling.png in Resources */,
 				41436C351C91DD1E00D4621D /* logocode.png in Resources */,
 				41A8FDC91C90D36100F59FE7 /* nivel3-rosa.png in Resources */,
@@ -389,6 +421,7 @@
 				522082F81C90CBF50080F816 /* bascula.png in Resources */,
 				522082F61C8F92B60080F816 /* boy-512.png in Resources */,
 				41A8FDCB1C90D36100F59FE7 /* nivel2gris.png in Resources */,
+				4177E5411C920093000A4191 /* introbook.ttf in Resources */,
 				4114CE091C8F47F000A6FEC3 /* calendario.png in Resources */,
 				41A8FDCC1C90D36100F59FE7 /* nivel2.png in Resources */,
 				41A8FDB61C909DD600F59FE7 /* Estrella.png in Resources */,
@@ -412,6 +445,7 @@
 				41A8FDBA1C90CAC900F59FE7 /* vlleno.png in Resources */,
 				41A8FDA11C9079A400F59FE7 /* bicicletacartel.png in Resources */,
 				415B57831C90CE7900BC6558 /* max_galeria_000@2x.jpg in Resources */,
+				4177E53F1C920093000A4191 /* introbold.ttf in Resources */,
 				41A8FDA91C9079FE00F59FE7 /* video.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +471,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41436C391C91E40C00D4621D /* APRoundButton.m in Sources */,
+				41436C3C1C91EE1100D4621D /* BackgroundLayer.m in Sources */,
 				4114CDFE1C8F353F00A6FEC3 /* ViewController.m in Sources */,
 				41FE66581C8E4F390052A48E /* AppDelegate.m in Sources */,
 				4158AC101C8F525C0021FA62 /* AlarmaViewController.m in Sources */,

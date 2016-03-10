@@ -75,7 +75,7 @@
     //Obtener la hora del datePicker
     IBOutlet UIDatePicker *dtHora;
     IBOutlet UILabel *lblHora;
-    
+    IBOutlet UIInterfaceOrientation *willAnimateRotationToInterfaceOrientation;
 }
 @property (copy,nonatomic) NSArray * datosTablaTiempos;
 
