@@ -266,6 +266,24 @@
                         <outlet property="ImagenRedes" destination="MrL-fQ-NF9" id="3bf-5U-TmC"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cu4-7e-uAn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="300" y="1693"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="o2f-FH-6pc">
+            <objects>
+                <viewController id="wZG-Ny-Avg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RBc-pg-VpZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="UBm-eO-vyV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3c1-JQ-VKJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vdX-T6-YQ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-37" y="-867"/>
@@ -1595,9 +1613,4 @@
         <image name="vasoss.jpg" width="960" height="400"/>
         <image name="video.png" width="512" height="512"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="jRd-jA-2dp"/>
-        <segue reference="gs2-Y5-kGB"/>
-        <segue reference="ZPe-DC-umt"/>
-    </inferredMetricsTieBreakers>
 </document>
