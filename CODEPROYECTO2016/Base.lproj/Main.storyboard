@@ -312,7 +312,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aIu-Y9-6qv">
                                 <rect key="frame" x="20" y="364" width="374" height="359"/>
                             </containerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JyN-Gi-CcO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JyN-Gi-CcO">
                                 <rect key="frame" x="20" y="86" width="374" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="oPK-9e-gxU"/>
@@ -562,7 +562,13 @@
                             <outlet property="delegate" destination="GYm-vS-JAL" id="ia1-Cy-MUc"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Retos" id="Gn4-U1-fyn"/>
+                    <navigationItem key="navigationItem" title="Retos" id="Gn4-U1-fyn">
+                        <barButtonItem key="leftBarButtonItem" title="&lt; Menu" id="lvw-Jo-TRE">
+                            <connections>
+                                <segue destination="o9P-L6-ZRh" kind="show" id="GS1-gk-zcC"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
@@ -633,7 +639,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HDF-7L-kJr">
                                 <rect key="frame" x="31" y="564" width="140" height="41"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Este reto te ayuda a mantener una dieta valanceada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIb-Wi-nIu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Este reto te ayuda a mantener una dieta balanceada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIb-Wi-nIu">
                                 <rect key="frame" x="20" y="618" width="374" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -679,7 +685,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o1j-Me-5CL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2598" y="218"/>
+            <point key="canvasLocation" x="2886" y="188"/>
         </scene>
         <!--Agua-->
         <scene sceneID="Kqq-hH-BDj">
@@ -749,7 +755,7 @@
                                     <action selector="CambiarImagenVaso6:" destination="3m9-On-paB" eventType="primaryActionTriggered" id="7tn-gP-oeU"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Este reto te ayuda a mantener una dieta valanceada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fM-fq-Oeb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Este reto te ayuda a mantener una dieta balanceada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fM-fq-Oeb">
                                 <rect key="frame" x="20" y="624" width="374" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -801,6 +807,7 @@
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="btnCompletadoV" destination="El7-ov-lJb" id="UcO-aT-qln"/>
                         <outlet property="btnCompletadoV1" destination="kxx-FI-5SE" id="PQI-5n-6LS"/>
@@ -824,7 +831,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="svZ-cw-aP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2598" y="1025"/>
+            <point key="canvasLocation" x="2958" y="960"/>
         </scene>
         <!--Nivel 2-->
         <scene sceneID="6Om-1S-Fa0">
@@ -853,14 +860,22 @@
                                     <segue destination="lh6-RX-VLQ" kind="push" id="VhC-Qe-dxg"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Andar en bicicleta por diez minutos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9GW-A4-ZJJ">
+                                <rect key="frame" x="26" y="80" width="363" height="95"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.070588235294117646" green="0.58039215686274515" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Nivel 2" id="sgZ-NU-4FR"/>
+                    <navigationItem key="navigationItem" title="Nivel 2" id="sgZ-NU-4FR">
+                        <barButtonItem key="leftBarButtonItem" title="Incompleto" id="VHI-mb-dht"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OJ7-Yv-KUn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2598" y="1871"/>
+            <point key="canvasLocation" x="2426" y="1770"/>
         </scene>
         <!--Nivel 3-->
         <scene sceneID="ywu-Ez-g92">
@@ -886,14 +901,40 @@
                                 <rect key="frame" x="267" y="616" width="74" height="71"/>
                                 <state key="normal" image="nivel3.png"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Andar en bicicleta por quince minutos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q1U-IF-rId">
+                                <rect key="frame" x="26" y="79" width="363" height="95"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Felicidades has completado el reto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YN4-Qg-8qz">
+                                <rect key="frame" x="26" y="342" width="363" height="95"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1N-V4-LWp">
+                                <rect key="frame" x="144" y="491" width="126" height="45"/>
+                                <color key="backgroundColor" red="0.99583703279495239" green="0.63839936256408691" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Finalizar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.99583703279495239" green="0.63839936256408691" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="GYm-vS-JAL" kind="show" id="n41-OF-9aI"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.070588235294117646" green="0.58039215686274515" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Nivel 3" id="VLC-aq-paP"/>
+                    <navigationItem key="navigationItem" title="Nivel 3" id="VLC-aq-paP">
+                        <barButtonItem key="leftBarButtonItem" title="Incompleto" id="U42-fE-B8D"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Bc-ZU-cti" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3136" y="1871"/>
+            <point key="canvasLocation" x="3008" y="1895"/>
         </scene>
         <!--Menu-->
         <scene sceneID="4Nh-dl-Wed">
@@ -907,91 +948,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AkO-6q-3pj">
-                                <rect key="frame" x="67" y="133" width="77" height="74"/>
-                                <state key="normal" backgroundImage="LogoPrincipal.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BW4-Ak-bjA">
-                                <rect key="frame" x="58" y="260" width="100" height="95"/>
-                                <state key="normal" backgroundImage="agenda.png"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mms-Na-bFq">
-                                <rect key="frame" x="59" y="396" width="98" height="86"/>
+                                <rect key="frame" x="46" y="425" width="73" height="69"/>
                                 <state key="normal" backgroundImage="calendario.png"/>
                                 <connections>
                                     <segue destination="wZG-Ny-Avg" kind="show" id="Obi-8l-mP0"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="salud" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hwr-My-cVb">
-                                <rect key="frame" x="85" y="206" width="41" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Agenda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECm-eA-UyW">
-                                <rect key="frame" x="76" y="357" width="59" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oao-dg-CDN">
-                                <rect key="frame" x="67" y="480" width="83" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTT-AQ-frB">
-                                <rect key="frame" x="253" y="133" width="82" height="77"/>
-                                <state key="normal" backgroundImage="Retos.png"/>
+                                <rect key="frame" x="289" y="429" width="79" height="62"/>
+                                <state key="normal" backgroundImage="retos.png"/>
                                 <connections>
                                     <segue destination="GYm-vS-JAL" kind="push" id="Dnl-Zb-w1b"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWf-Zx-Nau">
-                                <rect key="frame" x="250" y="264" width="85" height="85"/>
-                                <state key="normal" backgroundImage="alarma.png"/>
-                                <connections>
-                                    <segue destination="hdd-Ua-q5q" kind="push" id="gs2-Y5-kGB"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Retos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjT-i0-NxG">
-                                <rect key="frame" x="271" y="212" width="44" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alarma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpX-fA-Nyb">
-                                <rect key="frame" x="269" y="357" width="54" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfx-SJ-KQB">
-                                <rect key="frame" x="243" y="393" width="92" height="89"/>
-                                <state key="normal" image="cronometro-150x150.png"/>
-                                <connections>
-                                    <segue destination="4JL-cD-t31" kind="show" id="GfC-mL-18V"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cronometro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Otd-j7-blW">
-                                <rect key="frame" x="243" y="480" width="92" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEc-Wh-e21">
-                                <rect key="frame" x="58" y="525" width="92" height="88"/>
+                                <rect key="frame" x="288" y="577" width="80" height="64"/>
                                 <state key="normal" title="Button" image="configuracion.png"/>
                                 <connections>
                                     <segue destination="5KQ-pi-8ni" kind="show" id="hnB-V3-6ld"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Configuracion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BvB-1R-aWr">
-                                <rect key="frame" x="53" y="615" width="108" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nina.png" translatesAutoresizingMaskIntoConstraints="NO" id="pce-Y6-0Wt">
+                                <rect key="frame" x="85" y="72" width="245" height="337"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfx-SJ-KQB">
+                                <rect key="frame" x="46" y="577" width="73" height="64"/>
+                                <state key="normal" image="contador.png"/>
+                                <connections>
+                                    <segue destination="4JL-cD-t31" kind="show" id="GfC-mL-18V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWf-Zx-Nau">
+                                <rect key="frame" x="170" y="500" width="74" height="68"/>
+                                <state key="normal" backgroundImage="alarma.png"/>
+                                <connections>
+                                    <segue destination="hdd-Ua-q5q" kind="push" id="gs2-Y5-kGB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.51938081503199074" green="0.53782963409158546" blue="0.68046480508951035" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1088,7 +1082,7 @@
             </objects>
             <point key="canvasLocation" x="1425" y="827"/>
         </scene>
-        <!--Bicicleta-->
+        <!--Nivel 1-->
         <scene sceneID="VLz-wo-f1I">
             <objects>
                 <viewController id="bVw-JO-QVj" sceneMemberID="viewController">
@@ -1115,14 +1109,22 @@
                                     <segue destination="EeY-fr-Dfj" kind="push" id="Dzr-kp-PmR"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Andar en bicicleta por cinco minutos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyn-Vs-v4W">
+                                <rect key="frame" x="26" y="111" width="363" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.070588235294117646" green="0.58039215686274515" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Bicicleta" id="NMQ-O9-1Lm"/>
+                    <navigationItem key="navigationItem" title="Nivel 1" id="NMQ-O9-1Lm">
+                        <barButtonItem key="leftBarButtonItem" title="Incompleto" id="SUI-O0-lWA"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OWs-po-AJD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2036" y="1363"/>
+            <point key="canvasLocation" x="1927" y="1412"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8Od-sW-I3r">
@@ -1173,6 +1175,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ll-LS-Zt6">
                                 <rect key="frame" x="135" y="626" width="145" height="43"/>
                                 <color key="backgroundColor" red="0.99583703280000002" green="0.63839936259999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Guardar ">
                                     <color key="titleColor" red="0.9959825873" green="0.99621325729999999" blue="0.99187678099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -1531,16 +1534,15 @@
     </scenes>
     <resources>
         <image name="LogoPrincipal.png" width="800" height="800"/>
-        <image name="Retos.png" width="150" height="150"/>
-        <image name="agenda.png" width="512" height="512"/>
-        <image name="alarma.png" width="256" height="256"/>
+        <image name="alarma.png" width="165" height="171"/>
         <image name="bascula.png" width="256" height="256"/>
         <image name="bicicletacartel.png" width="425" height="425"/>
         <image name="boy-512.png" width="512" height="512"/>
-        <image name="calendario.png" width="512" height="512"/>
-        <image name="configuracion.png" width="256" height="256"/>
-        <image name="cronometro-150x150.png" width="150" height="150"/>
+        <image name="calendario.png" width="123" height="142"/>
+        <image name="configuracion.png" width="165" height="171"/>
+        <image name="contador.png" width="133" height="136"/>
         <image name="man-cycling.png" width="512" height="512"/>
+        <image name="nina.png" width="761" height="1325"/>
         <image name="nivel.png" width="100" height="100"/>
         <image name="nivel1-rosa.png" width="100" height="100"/>
         <image name="nivel2-rosa.png" width="100" height="100"/>
@@ -1551,13 +1553,15 @@
         <image name="notifications.png" width="512" height="512"/>
         <image name="plato.png" width="317" height="193"/>
         <image name="platolleno.png" width="325" height="206"/>
+        <image name="retos.png" width="165" height="75"/>
         <image name="vVacio.png" width="198" height="291"/>
         <image name="vasoss.jpg" width="960" height="400"/>
         <image name="video.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Dnl-Zb-w1b"/>
         <segue reference="jRd-jA-2dp"/>
         <segue reference="gs2-Y5-kGB"/>
-        <segue reference="oI6-co-t8u"/>
+        <segue reference="ZPe-DC-umt"/>
     </inferredMetricsTieBreakers>
 </document>
