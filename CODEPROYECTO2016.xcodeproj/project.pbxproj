@@ -34,7 +34,7 @@
 		4177E53E1C920093000A4191 /* IntroBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53A1C920093000A4191 /* IntroBold.otf */; };
 		4177E53F1C920093000A4191 /* introbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53B1C920093000A4191 /* introbold.ttf */; };
 		4177E5401C920093000A4191 /* IntroBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53C1C920093000A4191 /* IntroBook.otf */; };
-		4177E5411C920093000A4191 /* introbook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53D1C920093000A4191 /* introbook.ttf */; };
+		4177E5461C9213A9000A4191 /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4177E5451C9213A9000A4191 /* BackgroundLayer.m */; };
 		41A8FDA11C9079A400F59FE7 /* bicicletacartel.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDA01C9079A400F59FE7 /* bicicletacartel.png */; };
 		41A8FDA31C9079B200F59FE7 /* platolleno.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDA21C9079B200F59FE7 /* platolleno.png */; };
 		41A8FDA51C9079BD00F59FE7 /* platolleno - copia.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A8FDA41C9079BD00F59FE7 /* platolleno - copia.png */; };
@@ -117,7 +117,8 @@
 		4177E53A1C920093000A4191 /* IntroBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroBold.otf; sourceTree = "<group>"; };
 		4177E53B1C920093000A4191 /* introbold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = introbold.ttf; sourceTree = "<group>"; };
 		4177E53C1C920093000A4191 /* IntroBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroBook.otf; sourceTree = "<group>"; };
-		4177E53D1C920093000A4191 /* introbook.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = introbook.ttf; sourceTree = "<group>"; };
+		4177E5441C9213A9000A4191 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
+		4177E5451C9213A9000A4191 /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
 		41A8FDA01C9079A400F59FE7 /* bicicletacartel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bicicletacartel.png; sourceTree = "<group>"; };
 		41A8FDA21C9079B200F59FE7 /* platolleno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = platolleno.png; sourceTree = "<group>"; };
 		41A8FDA41C9079BD00F59FE7 /* platolleno - copia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "platolleno - copia.png"; sourceTree = "<group>"; };
@@ -240,17 +241,23 @@
 			name = menu;
 			sourceTree = "<group>";
 		};
+		4177E5431C92123A000A4191 /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Recursos;
+			sourceTree = "<group>";
+		};
 		41FE66471C8E4F390052A48E = {
 			isa = PBXGroup;
 			children = (
-				4177E5421C9200AC000A4191 /* Recursos */,
-				41436C301C91DD0600D4621D /* imagegto */,
 				522082F91C90E4590080F816 /* EventKitUI.framework */,
 				4114CE0D1C8F47F900A6FEC3 /* imagenes */,
 				41FE66521C8E4F390052A48E /* CODEPROYECTO2016 */,
 				41FE666C1C8E4F390052A48E /* CODEPROYECTO2016Tests */,
 				41FE66771C8E4F390052A48E /* CODEPROYECTO2016UITests */,
 				41FE66511C8E4F390052A48E /* Products */,
+				4177E5431C92123A000A4191 /* Recursos */,
 			);
 			sourceTree = "<group>";
 		};
@@ -267,16 +274,14 @@
 		41FE66521C8E4F390052A48E /* CODEPROYECTO2016 */ = {
 			isa = PBXGroup;
 			children = (
-				41436C371C91E40C00D4621D /* APRoundButton.h */,
-				41436C381C91E40C00D4621D /* APRoundButton.m */,
 				41A8FDAF1C907D0800F59FE7 /* ConfigurationViewController.m */,
 				41A8FDAE1C907CF500F59FE7 /* ConfigurationViewController.h */,
 				4158AC0E1C8F525C0021FA62 /* AlarmaViewController.h */,
+				4177E5441C9213A9000A4191 /* BackgroundLayer.h */,
+				4177E5451C9213A9000A4191 /* BackgroundLayer.m */,
 				4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */,
 				4114CDFC1C8F353F00A6FEC3 /* ViewController.h */,
 				4114CDFD1C8F353F00A6FEC3 /* ViewController.m */,
-				41436C3A1C91EE1100D4621D /* BackgroundLayer.h */,
-				41436C3B1C91EE1100D4621D /* BackgroundLayer.m */,
 				415B577D1C8F83D500BC6558 /* CronoTableViewController.h */,
 				415B577E1C8F83D500BC6558 /* CronoTableViewController.m */,
 				41B788EC1C8F349F001F6E4F /* LogoPrincipal.png */,
@@ -433,7 +438,6 @@
 				41FE66601C8E4F390052A48E /* Assets.xcassets in Resources */,
 				4177E53E1C920093000A4191 /* IntroBold.otf in Resources */,
 				41A8FDA71C9079DD00F59FE7 /* man-cycling.png in Resources */,
-				41436C351C91DD1E00D4621D /* logocode.png in Resources */,
 				41A8FDC91C90D36100F59FE7 /* nivel3-rosa.png in Resources */,
 				4114CE0C1C8F47F000A6FEC3 /* salud.png in Resources */,
 				522082F81C90CBF50080F816 /* bascula.png in Resources */,
@@ -449,7 +453,6 @@
 				41A8FDB61C909DD600F59FE7 /* Estrella.png in Resources */,
 				41FE665E1C8E4F390052A48E /* Main.storyboard in Resources */,
 				41A8FDAB1C907A1D00F59FE7 /* notifications.png in Resources */,
-				41436C361C91DD1E00D4621D /* logocode2.png in Resources */,
 				4114CE001C8F366600A6FEC3 /* LogoPrincipal.png in Resources */,
 				41169ECE1C91DB5F0038FDDB /* vasoss.jpg in Resources */,
 				41A8FDB21C908B8000F59FE7 /* plato.png in Resources */,
@@ -467,7 +470,6 @@
 				41169ECA1C91DB5F0038FDDB /* nivel2gris.png in Resources */,
 				41169ED71C9202900038FDDB /* alarma.png in Resources */,
 				41A8FDBC1C90CAD000F59FE7 /* vVacio.png in Resources */,
-				41436C341C91DD1E00D4621D /* LOGO CODE.jpg in Resources */,
 				41A8FDCD1C90D36100F59FE7 /* nivel.png in Resources */,
 				41169EC61C91DB5F0038FDDB /* nivel2-rosa.png in Resources */,
 				41A8FDB81C90C93200F59FE7 /* vasoss.jpg in Resources */,
@@ -501,9 +503,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41436C391C91E40C00D4621D /* APRoundButton.m in Sources */,
-				41436C3C1C91EE1100D4621D /* BackgroundLayer.m in Sources */,
 				4114CDFE1C8F353F00A6FEC3 /* ViewController.m in Sources */,
+				4177E5461C9213A9000A4191 /* BackgroundLayer.m in Sources */,
 				41FE66581C8E4F390052A48E /* AppDelegate.m in Sources */,
 				4158AC101C8F525C0021FA62 /* AlarmaViewController.m in Sources */,
 				41FE66551C8E4F390052A48E /* main.m in Sources */,

@@ -940,7 +940,7 @@
                         <viewControllerLayoutGuide type="bottom" id="eh6-t0-oe8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="k2K-f2-Rq4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uI-Hw-6hR">
@@ -984,7 +984,7 @@
                         <viewControllerLayoutGuide type="bottom" id="pH9-nh-Lgu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Lzc-BT-z2j">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1j-Dg-MSX">
@@ -1186,7 +1186,7 @@
                         <viewControllerLayoutGuide type="bottom" id="U7d-fh-Lmy"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="oMl-Gz-cHG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qI2-z8-Klc">
@@ -1672,10 +1672,10 @@
         <image name="video.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="n41-OF-9aI"/>
         <segue reference="dm0-Yk-TTv"/>
         <segue reference="ZPe-DC-umt"/>
         <segue reference="SKZ-xK-izS"/>
-        <segue reference="ZPe-DC-umt"/>
         <segue reference="gs2-Y5-kGB"/>
     </inferredMetricsTieBreakers>
 </document>
