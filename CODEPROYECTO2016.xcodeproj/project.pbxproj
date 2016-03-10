@@ -15,6 +15,9 @@
 		4114CE0A1C8F47F000A6FEC3 /* cronometro-150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = 4114CE041C8F47F000A6FEC3 /* cronometro-150x150.png */; };
 		4114CE0B1C8F47F000A6FEC3 /* Retos.png in Resources */ = {isa = PBXBuildFile; fileRef = 4114CE051C8F47F000A6FEC3 /* Retos.png */; };
 		4114CE0C1C8F47F000A6FEC3 /* salud.png in Resources */ = {isa = PBXBuildFile; fileRef = 4114CE061C8F47F000A6FEC3 /* salud.png */; };
+		41436C341C91DD1E00D4621D /* LOGO CODE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41436C311C91DD1E00D4621D /* LOGO CODE.jpg */; };
+		41436C351C91DD1E00D4621D /* logocode.png in Resources */ = {isa = PBXBuildFile; fileRef = 41436C321C91DD1E00D4621D /* logocode.png */; };
+		41436C361C91DD1E00D4621D /* logocode2.png in Resources */ = {isa = PBXBuildFile; fileRef = 41436C331C91DD1E00D4621D /* logocode2.png */; };
 		4158AC101C8F525C0021FA62 /* AlarmaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */; };
 		415B577F1C8F83D500BC6558 /* CronoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B577E1C8F83D500BC6558 /* CronoTableViewController.m */; };
 		415B57831C90CE7900BC6558 /* max_galeria_000@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 415B57821C90CE7900BC6558 /* max_galeria_000@2x.jpg */; };
@@ -80,6 +83,9 @@
 		4114CE041C8F47F000A6FEC3 /* cronometro-150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cronometro-150x150.png"; sourceTree = "<group>"; };
 		4114CE051C8F47F000A6FEC3 /* Retos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Retos.png; sourceTree = "<group>"; };
 		4114CE061C8F47F000A6FEC3 /* salud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salud.png; sourceTree = "<group>"; };
+		41436C311C91DD1E00D4621D /* LOGO CODE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LOGO CODE.jpg"; sourceTree = "<group>"; };
+		41436C321C91DD1E00D4621D /* logocode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logocode.png; sourceTree = "<group>"; };
+		41436C331C91DD1E00D4621D /* logocode2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logocode2.png; sourceTree = "<group>"; };
 		4158AC0E1C8F525C0021FA62 /* AlarmaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmaViewController.h; sourceTree = "<group>"; };
 		4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmaViewController.m; sourceTree = "<group>"; };
 		415B577D1C8F83D500BC6558 /* CronoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CronoTableViewController.h; sourceTree = "<group>"; };
@@ -180,24 +186,20 @@
 			name = imagenes;
 			sourceTree = "<group>";
 		};
-		41A8FDBD1C90D29900F59FE7 /* reto_bici */ = {
+		41436C301C91DD0600D4621D /* imagegto */ = {
 			isa = PBXGroup;
 			children = (
-				41A8FDBE1C90D36100F59FE7 /* nivel3gris.png */,
-				41A8FDBF1C90D36100F59FE7 /* nivel2-rosa.png */,
-				41A8FDC01C90D36100F59FE7 /* nivel1-rosa.png */,
-				41A8FDC11C90D36100F59FE7 /* nivel3-rosa.png */,
-				41A8FDC21C90D36100F59FE7 /* nivel3.png */,
-				41A8FDC31C90D36100F59FE7 /* nivel2gris.png */,
-				41A8FDC41C90D36100F59FE7 /* nivel2.png */,
-				41A8FDC51C90D36100F59FE7 /* nivel.png */,
+				41436C311C91DD1E00D4621D /* LOGO CODE.jpg */,
+				41436C321C91DD1E00D4621D /* logocode.png */,
+				41436C331C91DD1E00D4621D /* logocode2.png */,
 			);
-			name = reto_bici;
+			name = imagegto;
 			sourceTree = "<group>";
 		};
 		41FE66471C8E4F390052A48E = {
 			isa = PBXGroup;
 			children = (
+				41436C301C91DD0600D4621D /* imagegto */,
 				522082F91C90E4590080F816 /* EventKitUI.framework */,
 				4114CE0D1C8F47F900A6FEC3 /* imagenes */,
 				41FE66521C8E4F390052A48E /* CODEPROYECTO2016 */,
@@ -381,6 +383,7 @@
 				4114CE071C8F47F000A6FEC3 /* agenda.png in Resources */,
 				41FE66601C8E4F390052A48E /* Assets.xcassets in Resources */,
 				41A8FDA71C9079DD00F59FE7 /* man-cycling.png in Resources */,
+				41436C351C91DD1E00D4621D /* logocode.png in Resources */,
 				41A8FDC91C90D36100F59FE7 /* nivel3-rosa.png in Resources */,
 				4114CE0C1C8F47F000A6FEC3 /* salud.png in Resources */,
 				522082F81C90CBF50080F816 /* bascula.png in Resources */,
@@ -392,6 +395,7 @@
 				4114CE0B1C8F47F000A6FEC3 /* Retos.png in Resources */,
 				41FE665E1C8E4F390052A48E /* Main.storyboard in Resources */,
 				41A8FDAB1C907A1D00F59FE7 /* notifications.png in Resources */,
+				41436C361C91DD1E00D4621D /* logocode2.png in Resources */,
 				4114CE001C8F366600A6FEC3 /* LogoPrincipal.png in Resources */,
 				41A8FDB21C908B8000F59FE7 /* plato.png in Resources */,
 				41B788ED1C8F349F001F6E4F /* LogoPrincipal.png in Resources */,
@@ -401,6 +405,7 @@
 				41A8FDA51C9079BD00F59FE7 /* platolleno - copia.png in Resources */,
 				41A8FDC61C90D36100F59FE7 /* nivel3gris.png in Resources */,
 				41A8FDBC1C90CAD000F59FE7 /* vVacio.png in Resources */,
+				41436C341C91DD1E00D4621D /* LOGO CODE.jpg in Resources */,
 				41A8FDCD1C90D36100F59FE7 /* nivel.png in Resources */,
 				41A8FDAD1C907B4D00F59FE7 /* configuracion.png in Resources */,
 				41A8FDB81C90C93200F59FE7 /* vasoss.jpg in Resources */,
