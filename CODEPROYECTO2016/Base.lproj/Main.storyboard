@@ -70,18 +70,18 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Titulo de la dieta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qX0-K3-3OF">
-                                                    <rect key="frame" x="146" y="67" width="121" height="20"/>
+                                                    <rect key="frame" x="180" y="67" width="121" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="iconMediterraneo.png" id="RLl-he-r6h">
-                                                    <rect key="frame" x="15" y="0.0" width="116" height="168"/>
+                                                    <rect key="frame" x="15" y="9" width="150" height="150"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Descripcion mu muy pero muy larga de la dieta." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6yM-Ef-TNo">
-                                                    <rect key="frame" x="146" y="87" width="233" height="14"/>
+                                                    <rect key="frame" x="180" y="87" width="199" height="14"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -99,18 +99,18 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Titulo de la dieta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="usT-71-kk5">
-                                                    <rect key="frame" x="145" y="61" width="121" height="20"/>
+                                                    <rect key="frame" x="180" y="61" width="121" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="iconSlim.png" id="W3W-aA-MnC">
-                                                    <rect key="frame" x="15" y="0.0" width="115" height="167"/>
+                                                    <rect key="frame" x="15" y="8" width="150" height="150"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Descripcion muy muy pero muy larga de la dieta." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WgO-2c-mPM">
-                                                    <rect key="frame" x="145" y="81" width="213" height="26"/>
+                                                    <rect key="frame" x="180" y="81" width="199" height="26"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -2189,8 +2189,8 @@
         <image name="comentarios.png" width="512" height="512"/>
         <image name="configuracion.png" width="165" height="171"/>
         <image name="contador.png" width="133" height="136"/>
-        <image name="iconMediterraneo.png" width="480" height="697"/>
-        <image name="iconSlim.png" width="480" height="697"/>
+        <image name="iconMediterraneo.png" width="150" height="150"/>
+        <image name="iconSlim.png" width="150" height="150"/>
         <image name="iconTerapeutica.png" width="150" height="150"/>
         <image name="iconVegetariana.png" width="150" height="150"/>
         <image name="man-cycling.png" width="512" height="512"/>
@@ -2212,9 +2212,9 @@
         <image name="video.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="dm0-Yk-TTv"/>
-        <segue reference="ZPe-DC-umt"/>
+        <segue reference="oI6-co-t8u"/>
         <segue reference="SKZ-xK-izS"/>
-        <segue reference="Dnl-Zb-w1b"/>
+        <segue reference="rkf-MW-B1y"/>
+        <segue reference="n41-OF-9aI"/>
     </inferredMetricsTieBreakers>
 </document>
