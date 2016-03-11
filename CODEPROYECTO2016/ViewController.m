@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "BackgroundLayer.h"
 
+
 @interface ViewController ()
 
 @end
@@ -18,7 +19,6 @@ NSArray * _municipiosArray;
 
 
 @implementation ViewController
-
 
 -(IBAction)Entrar:(id)sender {
 
@@ -50,6 +50,12 @@ NSArray * _municipiosArray;
 }
 
 - (void)viewDidLoad {
+    UIGraphicsBeginImageContext(self.view.frame.size);
+    [[UIImage imageNamed:@"142195-640.png"] drawInRect:self.view.bounds];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
     [super viewDidLoad];
     
    // CAGradientLayer *bgLayer  = [BackgroundLayer blueGradient];
@@ -102,6 +108,38 @@ NSArray * _municipiosArray;
    
     
     
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait || interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown );
 }
 
 //Metodos para picker fecha de nacimiento.
@@ -381,14 +419,26 @@ NSArray * _municipiosArray;
         UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
         [btnEstrellaV setImage:imagenE];
     }
-    
-
-    
 }
+
+//Sugerencias o comentarios
+-(IBAction)btnSugerencia:(id)sender {
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Comentario enviado"
+                                                                   message:@"Tu comentario se ha enviado al administrador, la respuesta sera enviada a tu correo, gracias."
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * action) {}];
+    
+    [alert addAction:defaultAction];
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
 - (void) willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
 {
     // resize your layers based on the view’s new bounds
     [[[self.view.layer sublayers] objectAtIndex:0] setFrame:self.view.bounds];
 }
+
 
 @end

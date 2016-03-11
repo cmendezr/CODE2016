@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ConfiguracionViewController : UITableViewController {
-    IBOutlet NSInteger * rowNo;
+@interface ConfigurationViewController : UITableViewController {
+    
+    IBOutlet NSInteger *rowNo;
+    IBOutlet UILabel *lblOpcion;
+    IBOutlet UILabel *lblOpcion2;
+    IBOutlet UILabel *lblOpcion3;
 }
 
 
