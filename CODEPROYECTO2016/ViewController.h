@@ -76,7 +76,10 @@
     IBOutlet UIDatePicker *dtHora;
     IBOutlet UILabel *lblHora;
     IBOutlet UIInterfaceOrientation *willAnimateRotationToInterfaceOrientation;
+    
 }
+
+
 @property (copy,nonatomic) NSArray * datosTablaTiempos;
 
 -(IBAction)obtenHora:(id)sender;
