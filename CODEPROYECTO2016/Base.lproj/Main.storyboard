@@ -24,7 +24,6 @@
             <string>Intro-Bold</string>
             <string>Intro-Bold</string>
             <string>Intro-Bold</string>
-            <string>Intro-Bold</string>
         </mutableArray>
         <mutableArray key="introbook.ttf">
             <string>Intro-Book</string>
@@ -45,24 +44,21 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cNa-FH-W7L">
-                                <rect key="frame" x="20" y="333" width="374" height="30"/>
+                                <rect key="frame" x="203" y="481" width="374" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="blZ-ER-5s5">
-                                <rect key="frame" x="20" y="371" width="374" height="30"/>
+                                <rect key="frame" x="203" y="519" width="374" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LogoPrincipal.png" highlightedImage="LogoPrincipal.png" translatesAutoresizingMaskIntoConstraints="NO" id="GU6-Du-InQ">
-                                <rect key="frame" x="105" y="94" width="203" height="203"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HaN-tu-64U">
-                                <rect key="frame" x="20" y="409" width="374" height="30"/>
+                                <rect key="frame" x="203" y="557" width="374" height="30"/>
                                 <color key="backgroundColor" red="0.99583703279495239" green="0.63839936256408691" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="15"/>
                                 <state key="normal" title="Entrar">
@@ -74,7 +70,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBW-g5-KrY">
-                                <rect key="frame" x="20" y="549" width="374" height="30"/>
+                                <rect key="frame" x="203" y="697" width="374" height="30"/>
                                 <color key="backgroundColor" red="0.12788987159729004" green="0.39414447546005249" blue="0.93991237878799438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="15"/>
                                 <state key="normal" title="Facebook">
@@ -85,7 +81,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cei-rm-Tlj">
-                                <rect key="frame" x="20" y="587" width="374" height="30"/>
+                                <rect key="frame" x="203" y="735" width="374" height="30"/>
                                 <color key="backgroundColor" red="0.99932795763015747" green="0.16288802027702332" blue="0.0070631876587867737" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="15"/>
                                 <state key="normal" title="Google">
@@ -96,7 +92,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fY0-8Z-Xq8">
-                                <rect key="frame" x="20" y="625" width="374" height="30"/>
+                                <rect key="frame" x="203" y="773" width="374" height="30"/>
                                 <color key="backgroundColor" red="0.12867704033851624" green="0.906879723072052" blue="0.94269472360610962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="15"/>
                                 <state key="normal" title="Twitter">
@@ -107,25 +103,28 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4L-Vp-UwM">
-                                <rect key="frame" x="94" y="447" width="227" height="30"/>
+                                <rect key="frame" x="277" y="595" width="227" height="30"/>
                                 <fontDescription key="fontDescription" name="Intro-Book" family="Intro Book" pointSize="15"/>
                                 <state key="normal" title="¿Olvidaste tu contraseña?"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjm-6b-qUl">
-                                <rect key="frame" x="94" y="471" width="227" height="30"/>
+                                <rect key="frame" x="277" y="619" width="227" height="30"/>
                                 <fontDescription key="fontDescription" name="Intro-Book" family="Intro Book" pointSize="15"/>
                                 <state key="normal" title="¿Aún no tienes una cuenta?"/>
                                 <connections>
                                     <segue destination="ubm-qP-mIt" kind="push" id="PeL-Pb-Uaj"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LogoPrincipal.png" translatesAutoresizingMaskIntoConstraints="NO" id="gV7-F7-71V">
+                                <rect key="frame" x="265" y="220" width="240" height="232"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Iniciar sesión" id="LPP-Hb-SCP"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <outlet property="Contraseña" destination="blZ-ER-5s5" id="n9d-ld-JH6"/>
                         <outlet property="Correo" destination="cNa-FH-W7L" id="dZQ-Fj-bf7"/>
@@ -412,8 +411,8 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yI6-uP-iwX">
-                                <rect key="frame" x="20" y="86" width="374" height="39"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yI6-uP-iwX">
+                                <rect key="frame" x="49" y="326" width="118" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="73" id="3t6-zc-wjl"/>
                                 </constraints>
@@ -564,7 +563,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hola Usuario, ¡Bienvenido!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzZ-PM-AJK">
                                 <rect key="frame" x="20" y="387" width="374" height="21"/>
-                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
