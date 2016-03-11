@@ -28,6 +28,8 @@
             <string>Intro-Bold</string>
             <string>Intro-Bold</string>
             <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
         </mutableArray>
         <mutableArray key="introbook.ttf">
             <string>Intro-Book</string>
@@ -53,7 +55,7 @@
                             <tableViewSection id="o2C-Il-pP9">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="0.0" id="PiH-2K-l1Z">
-                                        <rect key="frame" x="0.0" y="64" width="414" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PiH-2K-l1Z" id="o8o-Ca-pX6">
                                             <rect key="frame" x="0.0" y="-1" width="414" height="1"/>
@@ -61,7 +63,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="qX0-K3-3OF" detailTextLabel="6yM-Ef-TNo" imageView="RLl-he-r6h" rowHeight="169" style="IBUITableViewCellStyleSubtitle" id="hgg-h9-agf">
-                                        <rect key="frame" x="0.0" y="64" width="414" height="169"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="169"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hgg-h9-agf" id="1Gg-AZ-Iwq">
                                             <rect key="frame" x="0.0" y="0.0" width="381" height="168"/>
@@ -90,25 +92,25 @@
                                         <color key="backgroundColor" red="0.9286925196647644" green="0.44416353106498718" blue="0.12955549359321594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="usT-71-kk5" detailTextLabel="WgO-2c-mPM" imageView="W3W-aA-MnC" rowHeight="168" style="IBUITableViewCellStyleSubtitle" id="lev-4z-9FH">
-                                        <rect key="frame" x="0.0" y="233" width="414" height="168"/>
+                                        <rect key="frame" x="0.0" y="169" width="414" height="168"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lev-4z-9FH" id="ATC-7P-Aqh">
                                             <rect key="frame" x="0.0" y="0.0" width="381" height="167"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Titulo de la dieta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="usT-71-kk5">
-                                                    <rect key="frame" x="180" y="67" width="121" height="20"/>
+                                                    <rect key="frame" x="145" y="61" width="121" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="iconSlim.png" id="W3W-aA-MnC">
-                                                    <rect key="frame" x="15" y="8" width="150" height="150"/>
+                                                    <rect key="frame" x="15" y="0.0" width="115" height="167"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Descripcion muy muy pero muy larga de la dieta." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WgO-2c-mPM">
-                                                    <rect key="frame" x="180" y="87" width="199" height="14"/>
+                                                    <rect key="frame" x="145" y="81" width="213" height="26"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -119,7 +121,7 @@
                                         <color key="backgroundColor" red="0.066243425011634827" green="0.64882606267929077" blue="0.89231568574905396" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="v09-GQ-qXb" detailTextLabel="uQU-ej-eHB" imageView="iYu-5O-2rN" rowHeight="168" style="IBUITableViewCellStyleSubtitle" id="Oqe-Dn-d6d">
-                                        <rect key="frame" x="0.0" y="401" width="414" height="168"/>
+                                        <rect key="frame" x="0.0" y="337" width="414" height="168"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Oqe-Dn-d6d" id="Amo-Rs-rIf">
                                             <rect key="frame" x="0.0" y="0.0" width="381" height="167"/>
@@ -148,7 +150,7 @@
                                         <color key="backgroundColor" red="0.54873448610305786" green="0.78053992986679077" blue="0.23597612977027893" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="36C-9o-QtG" detailTextLabel="rNV-z6-HK7" imageView="qLL-i3-Ng9" rowHeight="168" style="IBUITableViewCellStyleSubtitle" id="rOM-oi-eCm">
-                                        <rect key="frame" x="0.0" y="569" width="414" height="168"/>
+                                        <rect key="frame" x="0.0" y="505" width="414" height="168"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rOM-oi-eCm" id="ksu-Tz-JJq">
                                             <rect key="frame" x="0.0" y="0.0" width="381" height="167"/>
@@ -1319,9 +1321,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mms-Na-bFq">
                                 <rect key="frame" x="44" y="399" width="73" height="69"/>
                                 <state key="normal" backgroundImage="calendario.png"/>
-                                <connections>
-                                    <segue destination="TtZ-Mo-aAk" kind="push" id="lsD-Qp-Zer"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTT-AQ-frB">
                                 <rect key="frame" x="287" y="403" width="79" height="62"/>
@@ -2179,6 +2178,7 @@
     </scenes>
     <resources>
         <image name="Estatura.png" width="512" height="512"/>
+        <image name="Estrella.png" width="128" height="128"/>
         <image name="LogoPrincipal.png" width="800" height="800"/>
         <image name="add.png" width="512" height="512"/>
         <image name="alarma.png" width="165" height="171"/>
@@ -2215,7 +2215,6 @@
         <segue reference="rkf-MW-B1y"/>
         <segue reference="oI6-co-t8u"/>
         <segue reference="SKZ-xK-izS"/>
-        <segue reference="gs2-Y5-kGB"/>
         <segue reference="Dnl-Zb-w1b"/>
     </inferredMetricsTieBreakers>
 </document>
