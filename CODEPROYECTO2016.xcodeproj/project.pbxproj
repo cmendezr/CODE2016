@@ -70,7 +70,23 @@
 		522082F81C90CBF50080F816 /* bascula.png in Resources */ = {isa = PBXBuildFile; fileRef = 522082F71C90CBF50080F816 /* bascula.png */; };
 		522082FA1C90E4590080F816 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522082F91C90E4590080F816 /* EventKitUI.framework */; };
 		526EEE311C931E570072C5E3 /* Estatura.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE301C931E570072C5E3 /* Estatura.png */; };
-		526EEE3B1C935B100072C5E3 /* IconDieta in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE3A1C935B100072C5E3 /* IconDieta */; };
+		526EEE4E1C93652E0072C5E3 /* Dieta2.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE3D1C93652E0072C5E3 /* Dieta2.png */; };
+		526EEE4F1C93652E0072C5E3 /* Dieta3.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE3E1C93652E0072C5E3 /* Dieta3.png */; };
+		526EEE501C93652E0072C5E3 /* Dieta4.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE3F1C93652E0072C5E3 /* Dieta4.png */; };
+		526EEE511C93652E0072C5E3 /* Dieta5.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE401C93652E0072C5E3 /* Dieta5.png */; };
+		526EEE521C93652E0072C5E3 /* Dieta6.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE411C93652E0072C5E3 /* Dieta6.png */; };
+		526EEE531C93652E0072C5E3 /* Dieta7.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE421C93652E0072C5E3 /* Dieta7.png */; };
+		526EEE541C93652E0072C5E3 /* Dieta8.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE431C93652E0072C5E3 /* Dieta8.png */; };
+		526EEE551C93652E0072C5E3 /* Dieta9.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE441C93652E0072C5E3 /* Dieta9.png */; };
+		526EEE561C93652E0072C5E3 /* Dieta10.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE451C93652E0072C5E3 /* Dieta10.png */; };
+		526EEE571C93652E0072C5E3 /* Dieta11.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE461C93652E0072C5E3 /* Dieta11.png */; };
+		526EEE581C93652E0072C5E3 /* Dieta12.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE471C93652E0072C5E3 /* Dieta12.png */; };
+		526EEE591C93652E0072C5E3 /* Dieta13.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE481C93652E0072C5E3 /* Dieta13.png */; };
+		526EEE5A1C93652E0072C5E3 /* Dieta14.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE491C93652E0072C5E3 /* Dieta14.png */; };
+		526EEE5B1C93652E0072C5E3 /* iconMediterraneo.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE4A1C93652E0072C5E3 /* iconMediterraneo.png */; };
+		526EEE5C1C93652E0072C5E3 /* iconSlim.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE4B1C93652E0072C5E3 /* iconSlim.png */; };
+		526EEE5D1C93652E0072C5E3 /* iconTerapeutica.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE4C1C93652E0072C5E3 /* iconTerapeutica.png */; };
+		526EEE5E1C93652E0072C5E3 /* iconVegetariana.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE4D1C93652E0072C5E3 /* iconVegetariana.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,7 +182,23 @@
 		522082F71C90CBF50080F816 /* bascula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bascula.png; sourceTree = "<group>"; };
 		522082F91C90E4590080F816 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 		526EEE301C931E570072C5E3 /* Estatura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Estatura.png; sourceTree = "<group>"; };
-		526EEE3A1C935B100072C5E3 /* IconDieta */ = {isa = PBXFileReference; lastKnownFileType = folder; path = IconDieta; sourceTree = "<group>"; };
+		526EEE3D1C93652E0072C5E3 /* Dieta2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dieta2.png; sourceTree = "<group>"; };
+		526EEE3E1C93652E0072C5E3 /* Dieta3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dieta3.png; sourceTree = "<group>"; };
+		526EEE3F1C93652E0072C5E3 /* Dieta4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dieta4.png; sourceTree = "<group>"; };
+		526EEE401C93652E0072C5E3 /* Dieta5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dieta5.png; sourceTree = "<group>"; };
+		526EEE411C93652E0072C5E3 /* Dieta6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dieta6.png; sourceTree = "<group>"; };
+		526EEE421C93652E0072C5E3 /* Dieta7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dieta7.png; sourceTree = "<group>"; };
+		526EEE431C93652E0072C5E3 /* Dieta8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dieta8.png; sourceTree = "<group>"; };
+		526EEE441C93652E0072C5E3 /* Dieta9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dieta9.png; sourceTree = "<group>"; };
+		526EEE451C93652E0072C5E3 /* Dieta10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dieta10.png; sourceTree = "<group>"; };
+		526EEE461C93652E0072C5E3 /* Dieta11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dieta11.png; sourceTree = "<group>"; };
+		526EEE471C93652E0072C5E3 /* Dieta12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dieta12.png; sourceTree = "<group>"; };
+		526EEE481C93652E0072C5E3 /* Dieta13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dieta13.png; sourceTree = "<group>"; };
+		526EEE491C93652E0072C5E3 /* Dieta14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dieta14.png; sourceTree = "<group>"; };
+		526EEE4A1C93652E0072C5E3 /* iconMediterraneo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconMediterraneo.png; sourceTree = "<group>"; };
+		526EEE4B1C93652E0072C5E3 /* iconSlim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSlim.png; sourceTree = "<group>"; };
+		526EEE4C1C93652E0072C5E3 /* iconTerapeutica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconTerapeutica.png; sourceTree = "<group>"; };
+		526EEE4D1C93652E0072C5E3 /* iconVegetariana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconVegetariana.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,7 +230,7 @@
 		4114CE0D1C8F47F900A6FEC3 /* imagenes */ = {
 			isa = PBXGroup;
 			children = (
-				526EEE3A1C935B100072C5E3 /* IconDieta */,
+				526EEE3C1C9365080072C5E3 /* IconDieta */,
 				526EEE301C931E570072C5E3 /* Estatura.png */,
 				41169EE01C920BF00038FDDB /* retos.png */,
 				41169EDE1C92040E0038FDDB /* contador.png */,
@@ -335,6 +367,30 @@
 			path = CODEPROYECTO2016UITests;
 			sourceTree = "<group>";
 		};
+		526EEE3C1C9365080072C5E3 /* IconDieta */ = {
+			isa = PBXGroup;
+			children = (
+				526EEE3D1C93652E0072C5E3 /* Dieta2.png */,
+				526EEE3E1C93652E0072C5E3 /* Dieta3.png */,
+				526EEE3F1C93652E0072C5E3 /* Dieta4.png */,
+				526EEE401C93652E0072C5E3 /* Dieta5.png */,
+				526EEE411C93652E0072C5E3 /* Dieta6.png */,
+				526EEE421C93652E0072C5E3 /* Dieta7.png */,
+				526EEE431C93652E0072C5E3 /* Dieta8.png */,
+				526EEE441C93652E0072C5E3 /* Dieta9.png */,
+				526EEE451C93652E0072C5E3 /* Dieta10.png */,
+				526EEE461C93652E0072C5E3 /* Dieta11.png */,
+				526EEE471C93652E0072C5E3 /* Dieta12.png */,
+				526EEE481C93652E0072C5E3 /* Dieta13.png */,
+				526EEE491C93652E0072C5E3 /* Dieta14.png */,
+				526EEE4A1C93652E0072C5E3 /* iconMediterraneo.png */,
+				526EEE4B1C93652E0072C5E3 /* iconSlim.png */,
+				526EEE4C1C93652E0072C5E3 /* iconTerapeutica.png */,
+				526EEE4D1C93652E0072C5E3 /* iconVegetariana.png */,
+			);
+			name = IconDieta;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -441,40 +497,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526EEE571C93652E0072C5E3 /* Dieta11.png in Resources */,
 				41A8FDC71C90D36100F59FE7 /* nivel2-rosa.png in Resources */,
 				41A8FDB41C908FE500F59FE7 /* completado.png in Resources */,
+				526EEE521C93652E0072C5E3 /* Dieta6.png in Resources */,
 				4177E5401C920093000A4191 /* IntroBook.otf in Resources */,
 				41FE66631C8E4F390052A48E /* LaunchScreen.storyboard in Resources */,
 				41A8FDCA1C90D36100F59FE7 /* nivel3.png in Resources */,
 				41169ECF1C91DB5F0038FDDB /* vlleno.png in Resources */,
 				41FE66601C8E4F390052A48E /* Assets.xcassets in Resources */,
 				4177E53E1C920093000A4191 /* IntroBold.otf in Resources */,
+				526EEE5A1C93652E0072C5E3 /* Dieta14.png in Resources */,
 				41A8FDA71C9079DD00F59FE7 /* man-cycling.png in Resources */,
 				41A8FDC91C90D36100F59FE7 /* nivel3-rosa.png in Resources */,
+				526EEE5C1C93652E0072C5E3 /* iconSlim.png in Resources */,
+				526EEE581C93652E0072C5E3 /* Dieta12.png in Resources */,
 				4114CE0C1C8F47F000A6FEC3 /* salud.png in Resources */,
+				526EEE511C93652E0072C5E3 /* Dieta5.png in Resources */,
 				522082F81C90CBF50080F816 /* bascula.png in Resources */,
 				41169ECB1C91DB5F0038FDDB /* nivel2.png in Resources */,
+				526EEE4F1C93652E0072C5E3 /* Dieta3.png in Resources */,
 				41169ED41C9202040038FDDB /* nina.png in Resources */,
+				526EEE551C93652E0072C5E3 /* Dieta9.png in Resources */,
 				41169EE11C920BF00038FDDB /* retos.png in Resources */,
+				526EEE501C93652E0072C5E3 /* Dieta4.png in Resources */,
 				522082F61C8F92B60080F816 /* boy-512.png in Resources */,
 				41A8FDCB1C90D36100F59FE7 /* nivel2gris.png in Resources */,
 				526EEE311C931E570072C5E3 /* Estatura.png in Resources */,
+				526EEE531C93652E0072C5E3 /* Dieta7.png in Resources */,
 				41169ECC1C91DB5F0038FDDB /* nivel.png in Resources */,
 				41169ED91C9202C40038FDDB /* calendario.png in Resources */,
+				526EEE5E1C93652E0072C5E3 /* iconVegetariana.png in Resources */,
 				41169EC91C91DB5F0038FDDB /* nivel3.png in Resources */,
 				41A8FDCC1C90D36100F59FE7 /* nivel2.png in Resources */,
+				526EEE591C93652E0072C5E3 /* Dieta13.png in Resources */,
 				41A8FDB61C909DD600F59FE7 /* Estrella.png in Resources */,
 				41FE665E1C8E4F390052A48E /* Main.storyboard in Resources */,
+				526EEE561C93652E0072C5E3 /* Dieta10.png in Resources */,
+				526EEE5B1C93652E0072C5E3 /* iconMediterraneo.png in Resources */,
 				41A8FDAB1C907A1D00F59FE7 /* notifications.png in Resources */,
 				4114CE001C8F366600A6FEC3 /* LogoPrincipal.png in Resources */,
 				41169ECE1C91DB5F0038FDDB /* vasoss.jpg in Resources */,
 				41A8FDB21C908B8000F59FE7 /* plato.png in Resources */,
 				41B788ED1C8F349F001F6E4F /* LogoPrincipal.png in Resources */,
+				526EEE541C93652E0072C5E3 /* Dieta8.png in Resources */,
 				41A8FDA31C9079B200F59FE7 /* platolleno.png in Resources */,
 				41169EC71C91DB5F0038FDDB /* nivel1-rosa.png in Resources */,
 				41169EDF1C92040E0038FDDB /* contador.png in Resources */,
 				41169EC81C91DB5F0038FDDB /* nivel3-rosa.png in Resources */,
-				526EEE3B1C935B100072C5E3 /* IconDieta in Resources */,
 				41169EDD1C9203BE0038FDDB /* retos.png in Resources */,
 				41169ECD1C91DB5F0038FDDB /* vVacio.png in Resources */,
 				41A8FDC81C90D36100F59FE7 /* nivel1-rosa.png in Resources */,
@@ -490,8 +560,10 @@
 				41169EC51C91DB5F0038FDDB /* nivel3gris.png in Resources */,
 				41A8FDBA1C90CAC900F59FE7 /* vlleno.png in Resources */,
 				41A8FDA11C9079A400F59FE7 /* bicicletacartel.png in Resources */,
+				526EEE5D1C93652E0072C5E3 /* iconTerapeutica.png in Resources */,
 				415B57831C90CE7900BC6558 /* max_galeria_000@2x.jpg in Resources */,
 				4177E53F1C920093000A4191 /* introbold.ttf in Resources */,
+				526EEE4E1C93652E0072C5E3 /* Dieta2.png in Resources */,
 				41A8FDA91C9079FE00F59FE7 /* video.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
