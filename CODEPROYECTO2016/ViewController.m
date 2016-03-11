@@ -381,10 +381,21 @@ NSArray * _municipiosArray;
         UIImage *imagenE =  [UIImage imageNamed:@"Estrella.png"];
         [btnEstrellaV setImage:imagenE];
     }
-    
-
-    
 }
+
+//Sugerencias o comentarios
+-(IBAction)btnSugerencia:(id)sender {
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Comentario enviado"
+                                                                   message:@"Tu comentario se ha enviado al administrador, la respuesta sera enviada a tu correo, gracias."
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * action) {}];
+    
+    [alert addAction:defaultAction];
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
 - (void) willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
 {
     // resize your layers based on the view’s new bounds
