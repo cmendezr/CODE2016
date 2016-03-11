@@ -58,9 +58,9 @@ NSArray * _municipiosArray;
     self.view.backgroundColor = [UIColor colorWithPatternImage:image];
     [super viewDidLoad];
     
-   /* CAGradientLayer *bgLayer  = [BackgroundLayer blueGradient];
-    bgLayer.frame = self.view.bounds;
-    [self.view.layer insertSublayer:bgLayer atIndex:0];*/
+   // CAGradientLayer *bgLayer  = [BackgroundLayer blueGradient];
+   // bgLayer.frame = self.view.bounds;
+    //[self.view.layer insertSublayer:bgLayer atIndex:0];
 
     //Redondear Imagenes
     ImagenRedes.layer.cornerRadius = ImagenRedes.frame.size.width /2;
