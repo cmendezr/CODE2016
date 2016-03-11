@@ -69,6 +69,8 @@
 		522082F61C8F92B60080F816 /* boy-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 522082F51C8F92B60080F816 /* boy-512.png */; };
 		522082F81C90CBF50080F816 /* bascula.png in Resources */ = {isa = PBXBuildFile; fileRef = 522082F71C90CBF50080F816 /* bascula.png */; };
 		522082FA1C90E4590080F816 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522082F91C90E4590080F816 /* EventKitUI.framework */; };
+		526EEE311C931E570072C5E3 /* Estatura.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE301C931E570072C5E3 /* Estatura.png */; };
+		526EEE3B1C935B100072C5E3 /* IconDieta in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE3A1C935B100072C5E3 /* IconDieta */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +165,8 @@
 		522082F51C8F92B60080F816 /* boy-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boy-512.png"; sourceTree = "<group>"; };
 		522082F71C90CBF50080F816 /* bascula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bascula.png; sourceTree = "<group>"; };
 		522082F91C90E4590080F816 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		526EEE301C931E570072C5E3 /* Estatura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Estatura.png; sourceTree = "<group>"; };
+		526EEE3A1C935B100072C5E3 /* IconDieta */ = {isa = PBXFileReference; lastKnownFileType = folder; path = IconDieta; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +198,8 @@
 		4114CE0D1C8F47F900A6FEC3 /* imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				526EEE3A1C935B100072C5E3 /* IconDieta */,
+				526EEE301C931E570072C5E3 /* Estatura.png */,
 				41169EE01C920BF00038FDDB /* retos.png */,
 				41169EDE1C92040E0038FDDB /* contador.png */,
 				41169EDC1C9203BE0038FDDB /* retos.png */,
@@ -452,6 +458,7 @@
 				41169EE11C920BF00038FDDB /* retos.png in Resources */,
 				522082F61C8F92B60080F816 /* boy-512.png in Resources */,
 				41A8FDCB1C90D36100F59FE7 /* nivel2gris.png in Resources */,
+				526EEE311C931E570072C5E3 /* Estatura.png in Resources */,
 				41169ECC1C91DB5F0038FDDB /* nivel.png in Resources */,
 				41169ED91C9202C40038FDDB /* calendario.png in Resources */,
 				41169EC91C91DB5F0038FDDB /* nivel3.png in Resources */,
@@ -467,6 +474,7 @@
 				41169EC71C91DB5F0038FDDB /* nivel1-rosa.png in Resources */,
 				41169EDF1C92040E0038FDDB /* contador.png in Resources */,
 				41169EC81C91DB5F0038FDDB /* nivel3-rosa.png in Resources */,
+				526EEE3B1C935B100072C5E3 /* IconDieta in Resources */,
 				41169EDD1C9203BE0038FDDB /* retos.png in Resources */,
 				41169ECD1C91DB5F0038FDDB /* vVacio.png in Resources */,
 				41A8FDC81C90D36100F59FE7 /* nivel1-rosa.png in Resources */,
@@ -661,7 +669,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CODEPROYECTO2016/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CADES.CODEPROYECTO2016;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -673,7 +681,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CODEPROYECTO2016/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CADES.CODEPROYECTO2016;
 				PRODUCT_NAME = "$(TARGET_NAME)";

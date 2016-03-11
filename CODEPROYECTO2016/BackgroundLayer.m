@@ -36,24 +36,24 @@
 }
 
 //Blue gradient background
-+ (CAGradientLayer*) blueGradient {
+//+ (CAGradientLayer*) blueGradient {
 
-    UIColor *colorOne = [UIColor colorWithRed:(18/255.0) green:(111/255.0) blue:(183/255.0) alpha:1.0];
-    UIColor *colorTwo = [UIColor colorWithRed:(0/255.0)  green:(67/255.0)  blue:(118/255.0)  alpha:1.0];
+//    UIColor *colorOne = [UIColor colorWithRed:(18/255.0) green:(111/255.0) blue:(183/255.0) alpha:1.0];
+  //  UIColor *colorTwo = [UIColor colorWithRed:(0/255.0)  green:(67/255.0)  blue:(118/255.0)  alpha:1.0];
     
-    NSArray *colors = [NSArray arrayWithObjects:(id)colorOne.CGColor, colorTwo.CGColor, nil];
-    NSNumber *stopOne = [NSNumber numberWithFloat:0.0];
-    NSNumber *stopTwo = [NSNumber numberWithFloat:1.0];
+  //  NSArray *colors = [NSArray arrayWithObjects:(id)colorOne.CGColor, colorTwo.CGColor, nil];
+ //   NSNumber *stopOne = [NSNumber numberWithFloat:0.0];
+ //   NSNumber *stopTwo = [NSNumber numberWithFloat:1.0];
     
-    NSArray *locations = [NSArray arrayWithObjects:stopOne, stopTwo, nil];
+ //   NSArray *locations = [NSArray arrayWithObjects:stopOne, stopTwo, nil];
     
-    CAGradientLayer *headerLayer = [CAGradientLayer layer];
-    headerLayer.colors = colors;
-    headerLayer.locations = locations;
+  //  CAGradientLayer *headerLayer = [CAGradientLayer layer];
+  //  headerLayer.colors = colors;
+  //  headerLayer.locations = locations;
     
-    return headerLayer;
+   // return headerLayer;
     
-}
+//}
 
 
 @end
