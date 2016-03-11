@@ -26,7 +26,6 @@
 		41169EE81C9239AD0038FDDB /* calendario.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169EE31C9239AD0038FDDB /* calendario.png */; };
 		41169EE91C9239AD0038FDDB /* configuracion.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169EE41C9239AD0038FDDB /* configuracion.png */; };
 		41169EEA1C9239AD0038FDDB /* contador.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169EE51C9239AD0038FDDB /* contador.png */; };
-		41169EEB1C9239AD0038FDDB /* retos.png in Resources */ = {isa = PBXBuildFile; fileRef = 41169EE61C9239AD0038FDDB /* retos.png */; };
 		4158AC101C8F525C0021FA62 /* AlarmaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */; };
 		415B577F1C8F83D500BC6558 /* CronoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415B577E1C8F83D500BC6558 /* CronoTableViewController.m */; };
 		415B57831C90CE7900BC6558 /* max_galeria_000@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 415B57821C90CE7900BC6558 /* max_galeria_000@2x.jpg */; };
@@ -106,7 +105,6 @@
 		41169EE31C9239AD0038FDDB /* calendario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendario.png; sourceTree = "<group>"; };
 		41169EE41C9239AD0038FDDB /* configuracion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configuracion.png; sourceTree = "<group>"; };
 		41169EE51C9239AD0038FDDB /* contador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contador.png; sourceTree = "<group>"; };
-		41169EE61C9239AD0038FDDB /* retos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retos.png; sourceTree = "<group>"; };
 		4158AC0E1C8F525C0021FA62 /* AlarmaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmaViewController.h; sourceTree = "<group>"; };
 		4158AC0F1C8F525C0021FA62 /* AlarmaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmaViewController.m; sourceTree = "<group>"; };
 		415B577D1C8F83D500BC6558 /* CronoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CronoTableViewController.h; sourceTree = "<group>"; };
@@ -233,7 +231,6 @@
 				41169EE31C9239AD0038FDDB /* calendario.png */,
 				41169EE41C9239AD0038FDDB /* configuracion.png */,
 				41169EE51C9239AD0038FDDB /* contador.png */,
-				41169EE61C9239AD0038FDDB /* retos.png */,
 			);
 			name = menu;
 			sourceTree = "<group>";
@@ -465,7 +462,6 @@
 				41169ECA1C91DB5F0038FDDB /* nivel2gris.png in Resources */,
 				41A8FDBC1C90CAD000F59FE7 /* vVacio.png in Resources */,
 				41A8FDCD1C90D36100F59FE7 /* nivel.png in Resources */,
-				41169EEB1C9239AD0038FDDB /* retos.png in Resources */,
 				41169EC61C91DB5F0038FDDB /* nivel2-rosa.png in Resources */,
 				41A8FDB81C90C93200F59FE7 /* vasoss.jpg in Resources */,
 				41169EC51C91DB5F0038FDDB /* nivel3gris.png in Resources */,
