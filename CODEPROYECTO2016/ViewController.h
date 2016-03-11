@@ -106,6 +106,7 @@
 - (IBAction)CambiarImagenVaso6:(id)sender;
 - (IBAction)CambiarImagenVaso7:(id)sender;
 
-
+//Sugerencias o comentarios
+-(IBAction)btnSugerencia:(id)sender;
 @end
 
