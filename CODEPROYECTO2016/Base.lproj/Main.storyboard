@@ -1311,7 +1311,7 @@
         <!--Menu-->
         <scene sceneID="4Nh-dl-Wed">
             <objects>
-                <viewController storyboardIdentifier="MenuP" useStoryboardIdentifierAsRestorationIdentifier="YES" id="o9P-L6-ZRh" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuP" wantsFullScreenLayout="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="o9P-L6-ZRh" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WTL-jT-WOx"/>
                         <viewControllerLayoutGuide type="bottom" id="hoB-GO-C1c"/>
@@ -1477,7 +1477,6 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Menu" id="uKT-XY-w8C"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SAf-sM-wub" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
