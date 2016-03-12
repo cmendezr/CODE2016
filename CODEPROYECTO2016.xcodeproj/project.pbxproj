@@ -47,7 +47,6 @@
 		416B0A041C934E81009FD48D /* DetalleGaleriaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 416B0A031C934E81009FD48D /* DetalleGaleriaViewController.xib */; };
 		416B0A071C934EDD009FD48D /* DetalleGaleriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416B0A061C934EDD009FD48D /* DetalleGaleriaViewController.m */; };
 		416B0A091C935127009FD48D /* max_galeria_001@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 416B0A081C935127009FD48D /* max_galeria_001@2x.jpg */; };
-		416B0A0D1C9376F8009FD48D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416B0A0C1C9376F8009FD48D /* HealthKit.framework */; };
 		416B0A101C93850F009FD48D /* 142195-640.png in Resources */ = {isa = PBXBuildFile; fileRef = 416B0A0F1C93850F009FD48D /* 142195-640.png */; };
 		4177E53E1C920093000A4191 /* IntroBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53A1C920093000A4191 /* IntroBold.otf */; };
 		4177E53F1C920093000A4191 /* introbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53B1C920093000A4191 /* introbold.ttf */; };
@@ -258,7 +257,6 @@
 			files = (
 				41E63AE21C934F1000B0BA5A /* MediaPlayer.framework in Frameworks */,
 				522082FA1C90E4590080F816 /* EventKitUI.framework in Frameworks */,
-				416B0A0D1C9376F8009FD48D /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +344,6 @@
 		41FE66471C8E4F390052A48E = {
 			isa = PBXGroup;
 			children = (
-				416B0A0C1C9376F8009FD48D /* HealthKit.framework */,
 				416B0A021C932BE1009FD48D /* recipes.plist */,
 				522082F91C90E4590080F816 /* EventKitUI.framework */,
 				4114CE0D1C8F47F900A6FEC3 /* imagenes */,
@@ -845,6 +842,8 @@
 				INFOPLIST_FILE = CODEPROYECTO2016/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "";
+				"OTHER_LIBTOOLFLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = CADES.CODEPROYECTO2016;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
