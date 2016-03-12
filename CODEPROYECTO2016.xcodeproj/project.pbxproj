@@ -52,6 +52,11 @@
 		416DDC891C939CC5006FA41E /* tips-re.png in Resources */ = {isa = PBXBuildFile; fileRef = 416DDC881C939CC5006FA41E /* tips-re.png */; };
 		416DDC8E1C939EC5006FA41E /* TipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416DDC8B1C939EC5006FA41E /* TipsViewController.m */; };
 		416DDC8F1C939EC5006FA41E /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416DDC8D1C939EC5006FA41E /* VideoViewController.m */; };
+		416DDC911C93A698006FA41E /* iconFuerza.png in Resources */ = {isa = PBXBuildFile; fileRef = 416DDC901C93A698006FA41E /* iconFuerza.png */; };
+		416DDC931C93A78A006FA41E /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 416DDC921C93A78A006FA41E /* twitter.png */; };
+		416DDC951C93A7D8006FA41E /* 431616_1twitter3.png in Resources */ = {isa = PBXBuildFile; fileRef = 416DDC941C93A7D8006FA41E /* 431616_1twitter3.png */; };
+		416DDC971C93AB27006FA41E /* dieta.png in Resources */ = {isa = PBXBuildFile; fileRef = 416DDC961C93AB27006FA41E /* dieta.png */; };
+		416DDC991C93AD49006FA41E /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 416DDC981C93AD49006FA41E /* add.png */; };
 		4177E53E1C920093000A4191 /* IntroBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53A1C920093000A4191 /* IntroBold.otf */; };
 		4177E53F1C920093000A4191 /* introbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53B1C920093000A4191 /* introbold.ttf */; };
 		4177E5401C920093000A4191 /* IntroBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53C1C920093000A4191 /* IntroBook.otf */; };
@@ -184,6 +189,11 @@
 		416DDC8B1C939EC5006FA41E /* TipsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsViewController.m; sourceTree = "<group>"; };
 		416DDC8C1C939EC5006FA41E /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
 		416DDC8D1C939EC5006FA41E /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		416DDC901C93A698006FA41E /* iconFuerza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconFuerza.png; sourceTree = "<group>"; };
+		416DDC921C93A78A006FA41E /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		416DDC941C93A7D8006FA41E /* 431616_1twitter3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 431616_1twitter3.png; sourceTree = "<group>"; };
+		416DDC961C93AB27006FA41E /* dieta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dieta.png; sourceTree = "<group>"; };
+		416DDC981C93AD49006FA41E /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		4177E53A1C920093000A4191 /* IntroBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroBold.otf; sourceTree = "<group>"; };
 		4177E53B1C920093000A4191 /* introbold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = introbold.ttf; sourceTree = "<group>"; };
 		4177E53C1C920093000A4191 /* IntroBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroBook.otf; sourceTree = "<group>"; };
@@ -215,7 +225,6 @@
 		41A8FDC51C90D36100F59FE7 /* nivel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nivel.png; sourceTree = "<group>"; };
 		41B788EC1C8F349F001F6E4F /* LogoPrincipal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoPrincipal.png; sourceTree = "<group>"; };
 		41E63ADD1C93283E00B0BA5A /* comentarios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comentarios.png; sourceTree = "<group>"; };
-		41E63ADF1C9341DF00B0BA5A /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		41E63AE11C934F1000B0BA5A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		41FE66501C8E4F390052A48E /* CODEPROYECTO2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CODEPROYECTO2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FE66541C8E4F390052A48E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -327,11 +336,15 @@
 		41169ED51C9202300038FDDB /* menu */ = {
 			isa = PBXGroup;
 			children = (
+				416DDC981C93AD49006FA41E /* add.png */,
+				416DDC961C93AB27006FA41E /* dieta.png */,
+				416DDC941C93A7D8006FA41E /* 431616_1twitter3.png */,
+				416DDC921C93A78A006FA41E /* twitter.png */,
+				416DDC901C93A698006FA41E /* iconFuerza.png */,
 				416DDC881C939CC5006FA41E /* tips-re.png */,
 				416DDC861C939CA7006FA41E /* contador.png */,
 				416DDC841C939C7F006FA41E /* alarma.png */,
 				416DDC821C939C09006FA41E /* retos.png */,
-				41E63ADF1C9341DF00B0BA5A /* add.png */,
 				41E63ADD1C93283E00B0BA5A /* comentarios.png */,
 				41169EE31C9239AD0038FDDB /* calendario.png */,
 				41169EE41C9239AD0038FDDB /* configuracion.png */,
@@ -586,6 +599,7 @@
 				526EEE5A1C93652E0072C5E3 /* Dieta14.png in Resources */,
 				41A8FDA71C9079DD00F59FE7 /* man-cycling.png in Resources */,
 				416DDC831C939C09006FA41E /* retos.png in Resources */,
+				416DDC931C93A78A006FA41E /* twitter.png in Resources */,
 				41A8FDC91C90D36100F59FE7 /* nivel3-rosa.png in Resources */,
 				526EEE5C1C93652E0072C5E3 /* iconSlim.png in Resources */,
 				526EEE581C93652E0072C5E3 /* Dieta12.png in Resources */,
@@ -602,6 +616,7 @@
 				41A8FDCB1C90D36100F59FE7 /* nivel2gris.png in Resources */,
 				526EEE311C931E570072C5E3 /* Estatura.png in Resources */,
 				526EEE531C93652E0072C5E3 /* Dieta7.png in Resources */,
+				416DDC951C93A7D8006FA41E /* 431616_1twitter3.png in Resources */,
 				41169ECC1C91DB5F0038FDDB /* nivel.png in Resources */,
 				416B0A091C935127009FD48D /* max_galeria_001@2x.jpg in Resources */,
 				416B09FC1C932431009FD48D /* egg_benedict.jpg in Resources */,
@@ -610,6 +625,7 @@
 				41169EE91C9239AD0038FDDB /* configuracion.png in Resources */,
 				41A8FDCC1C90D36100F59FE7 /* nivel2.png in Resources */,
 				526EEE591C93652E0072C5E3 /* Dieta13.png in Resources */,
+				416DDC971C93AB27006FA41E /* dieta.png in Resources */,
 				41A8FDB61C909DD600F59FE7 /* Estrella.png in Resources */,
 				41FE665E1C8E4F390052A48E /* Main.storyboard in Resources */,
 				526EEE561C93652E0072C5E3 /* Dieta10.png in Resources */,
@@ -622,6 +638,7 @@
 				41B788ED1C8F349F001F6E4F /* LogoPrincipal.png in Resources */,
 				526EEE541C93652E0072C5E3 /* Dieta8.png in Resources */,
 				41A8FDA31C9079B200F59FE7 /* platolleno.png in Resources */,
+				416DDC911C93A698006FA41E /* iconFuerza.png in Resources */,
 				416B0A041C934E81009FD48D /* DetalleGaleriaViewController.xib in Resources */,
 				41169EC71C91DB5F0038FDDB /* nivel1-rosa.png in Resources */,
 				416B09FF1C932431009FD48D /* creme_brelee.jpg in Resources */,
@@ -642,6 +659,7 @@
 				41A8FDBC1C90CAD000F59FE7 /* vVacio.png in Resources */,
 				416B09F21C932431009FD48D /* full_breakfast.jpg in Resources */,
 				416B09FD1C932431009FD48D /* ham_and_cheese_panini.jpg in Resources */,
+				416DDC991C93AD49006FA41E /* add.png in Resources */,
 				41A8FDCD1C90D36100F59FE7 /* nivel.png in Resources */,
 				416B09F71C932431009FD48D /* angry_birds_cake.jpg in Resources */,
 				416DDC871C939CA7006FA41E /* contador.png in Resources */,

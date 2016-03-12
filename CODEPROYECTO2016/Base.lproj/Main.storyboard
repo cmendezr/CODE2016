@@ -1320,74 +1320,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mms-Na-bFq">
-                                <rect key="frame" x="44" y="399" width="73" height="69"/>
-                                <state key="normal" backgroundImage="calendario.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTT-AQ-frB">
-                                <rect key="frame" x="287" y="403" width="79" height="62"/>
-                                <state key="normal" backgroundImage="retos.png"/>
-                                <connections>
-                                    <segue destination="GYm-vS-JAL" kind="push" id="Dnl-Zb-w1b"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfx-SJ-KQB">
-                                <rect key="frame" x="47" y="579" width="66" height="66"/>
-                                <state key="normal" image="contador.png"/>
-                                <connections>
-                                    <segue destination="4JL-cD-t31" kind="show" id="GfC-mL-18V"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWf-Zx-Nau">
-                                <rect key="frame" x="170" y="403" width="75" height="69"/>
-                                <state key="normal" image="alarma.png"/>
-                                <connections>
-                                    <segue destination="hdd-Ua-q5q" kind="push" id="gs2-Y5-kGB"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTp-h6-YYX">
-                                <rect key="frame" x="39" y="476" width="83" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cronometro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kob-as-gZ3">
-                                <rect key="frame" x="39" y="652" width="92" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alarma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOn-7N-Fap">
-                                <rect key="frame" x="180" y="476" width="54" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Configuracion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7L9-F8-Qnh">
-                                <rect key="frame" x="273" y="652" width="108" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Retos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hD5-mF-dvg">
-                                <rect key="frame" x="304" y="476" width="44" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nina.png" translatesAutoresizingMaskIntoConstraints="NO" id="pce-Y6-0Wt">
                                 <rect key="frame" x="102" y="64" width="210" height="327"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hG-i8-CHg">
-                                <rect key="frame" x="175" y="578" width="64" height="68"/>
-                                <state key="normal" image="tips-re.png"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hv-HG-lsK">
-                                <rect key="frame" x="191" y="652" width="33" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="95z-Cp-R2r">
                                 <rect key="frame" x="0.0" y="687" width="414" height="49"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -1396,6 +1331,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12w-g8-xFv">
                                 <rect key="frame" x="97" y="687" width="33" height="29"/>
                                 <state key="normal" image="comentarios.png"/>
+                                <connections>
+                                    <segue destination="7QZ-Kg-78Y" kind="push" id="oSL-4b-R2H"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dudas y sugerencias" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8h-Xu-2CX">
                                 <rect key="frame" x="33" y="716" width="160" height="20"/>
@@ -1406,6 +1344,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4n-YI-Xm4">
                                 <rect key="frame" x="285" y="687" width="42" height="41"/>
                                 <state key="normal" image="bicicletacartel.png"/>
+                                <connections>
+                                    <segue destination="ZTe-ia-YNm" kind="push" id="mSb-2z-Gzo"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Seguimiento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRE-I2-sLf">
                                 <rect key="frame" x="253" y="715" width="97" height="21"/>
@@ -1413,20 +1354,124 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEc-Wh-e21">
-                                <rect key="frame" x="293" y="580" width="69" height="66"/>
-                                <state key="normal" image="configuracion.png"/>
-                                <connections>
-                                    <segue destination="5KQ-pi-8ni" kind="show" id="hnB-V3-6ld"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyU-QI-pFk">
-                                <rect key="frame" x="18" y="299" width="51" height="30"/>
-                                <state key="normal" title="Rutinas"/>
-                                <connections>
-                                    <segue destination="z4P-lB-YMP" kind="push" id="oQ0-vj-CI4"/>
-                                </connections>
-                            </button>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qNR-je-dLX">
+                                <rect key="frame" x="20" y="391" width="374" height="288"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="2qY-I0-qHl">
+                                    <rect key="frame" x="0.0" y="0.0" width="374" height="288"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mms-Na-bFq">
+                                            <rect key="frame" x="42" y="103" width="51" height="52"/>
+                                            <state key="normal" backgroundImage="calendario.png"/>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTT-AQ-frB">
+                                            <rect key="frame" x="282" y="106" width="62" height="49"/>
+                                            <state key="normal" backgroundImage="retos.png"/>
+                                            <connections>
+                                                <segue destination="GYm-vS-JAL" kind="push" id="Dnl-Zb-w1b"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfx-SJ-KQB">
+                                            <rect key="frame" x="40" y="205" width="47" height="55"/>
+                                            <state key="normal" image="contador.png"/>
+                                            <connections>
+                                                <segue destination="4JL-cD-t31" kind="show" id="GfC-mL-18V"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWf-Zx-Nau">
+                                            <rect key="frame" x="160" y="99" width="54" height="56"/>
+                                            <state key="normal" image="alarma.png"/>
+                                            <connections>
+                                                <segue destination="hdd-Ua-q5q" kind="push" id="gs2-Y5-kGB"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTp-h6-YYX">
+                                            <rect key="frame" x="26" y="163" width="83" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rutinas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOP-aM-ak5">
+                                            <rect key="frame" x="159" y="70" width="57" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cronometro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kob-as-gZ3">
+                                            <rect key="frame" x="19" y="267" width="92" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alarma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOn-7N-Fap">
+                                            <rect key="frame" x="158" y="163" width="54" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Configuracion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7L9-F8-Qnh">
+                                            <rect key="frame" x="247" y="267" width="108" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Retos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hD5-mF-dvg">
+                                            <rect key="frame" x="291" y="163" width="44" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tweets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Xz-AE-iju">
+                                            <rect key="frame" x="286" y="70" width="55" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hG-i8-CHg">
+                                            <rect key="frame" x="154" y="205" width="59" height="56"/>
+                                            <state key="normal" image="tips-re.png"/>
+                                            <connections>
+                                                <segue destination="KEQ-gm-Fed" kind="push" id="fB5-7P-YKn"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hv-HG-lsK">
+                                            <rect key="frame" x="165" y="267" width="33" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEc-Wh-e21">
+                                            <rect key="frame" x="278" y="205" width="58" height="56"/>
+                                            <state key="normal" image="configuracion.png"/>
+                                            <connections>
+                                                <segue destination="5KQ-pi-8ni" kind="show" id="hnB-V3-6ld"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyU-QI-pFk">
+                                            <rect key="frame" x="154" y="0.0" width="67" height="67"/>
+                                            <state key="normal" image="iconFuerza.png"/>
+                                            <connections>
+                                                <segue destination="z4P-lB-YMP" kind="push" id="oQ0-vj-CI4"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGS-8Q-hYi">
+                                            <rect key="frame" x="282" y="6" width="63" height="56"/>
+                                            <state key="normal" image="431616_1twitter3.png"/>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euU-dR-Qek">
+                                            <rect key="frame" x="35" y="6" width="58" height="61"/>
+                                            <state key="normal" image="dieta.png"/>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dietas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udz-Rm-1HK">
+                                            <rect key="frame" x="40" y="70" width="49" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" red="0.5157489842598042" green="0.89373947401092069" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1867,7 +1912,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2pF-HX-vkj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vix-n1-4Wy">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nY0-JS-uqN">
@@ -1925,7 +1970,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fcr-MF-gb0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="167" y="-875"/>
+            <point key="canvasLocation" x="505" y="-789"/>
         </scene>
         <!--Simple Table View Controller-->
         <scene sceneID="nqc-ni-lwz">
@@ -1954,7 +1999,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hwz-Sd-PuH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="891" y="-775"/>
+            <point key="canvasLocation" x="1059" y="-921"/>
         </scene>
         <!--Tips-->
         <scene sceneID="XRE-KM-w61">
@@ -1987,7 +2032,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2qu-vk-3dU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1975" y="-893"/>
+            <point key="canvasLocation" x="1622" y="-456"/>
         </scene>
         <!--Seguimiento-->
         <scene sceneID="yZX-sI-2EA">
@@ -2069,7 +2114,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vuY-Yx-Q8M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2225" y="-978"/>
+            <point key="canvasLocation" x="2074" y="-777"/>
         </scene>
         <!--Alarma-->
         <scene sceneID="Jj7-q6-caB">
@@ -2227,6 +2272,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="431616_1twitter3.png" width="400" height="300"/>
         <image name="Estatura.png" width="512" height="512"/>
         <image name="Estrella.png" width="128" height="128"/>
         <image name="LogoPrincipal.png" width="800" height="800"/>
@@ -2239,6 +2285,8 @@
         <image name="comentarios.png" width="512" height="512"/>
         <image name="configuracion.png" width="165" height="171"/>
         <image name="contador.png" width="133" height="136"/>
+        <image name="dieta.png" width="150" height="150"/>
+        <image name="iconFuerza.png" width="151" height="150"/>
         <image name="iconMediterraneo.png" width="150" height="150"/>
         <image name="iconSlim.png" width="150" height="150"/>
         <image name="iconTerapeutica.png" width="150" height="150"/>
