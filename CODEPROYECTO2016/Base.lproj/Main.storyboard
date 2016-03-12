@@ -30,6 +30,8 @@
             <string>Intro-Bold</string>
             <string>Intro-Bold</string>
             <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
+            <string>Intro-Bold</string>
         </mutableArray>
         <mutableArray key="introbook.ttf">
             <string>Intro-Book</string>
@@ -1329,13 +1331,6 @@
                                     <segue destination="GYm-vS-JAL" kind="push" id="Dnl-Zb-w1b"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEc-Wh-e21">
-                                <rect key="frame" x="287" y="582" width="80" height="64"/>
-                                <state key="normal" image="configuracion.png"/>
-                                <connections>
-                                    <segue destination="5KQ-pi-8ni" kind="show" id="hnB-V3-6ld"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfx-SJ-KQB">
                                 <rect key="frame" x="47" y="579" width="66" height="66"/>
                                 <state key="normal" image="contador.png"/>
@@ -1343,9 +1338,9 @@
                                     <segue destination="4JL-cD-t31" kind="show" id="GfC-mL-18V"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWf-Zx-Nau">
-                                <rect key="frame" x="170" y="403" width="74" height="68"/>
-                                <state key="normal" backgroundImage="alarma.png"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWf-Zx-Nau">
+                                <rect key="frame" x="170" y="403" width="75" height="69"/>
+                                <state key="normal" image="alarma.png"/>
                                 <connections>
                                     <segue destination="hdd-Ua-q5q" kind="push" id="gs2-Y5-kGB"/>
                                 </connections>
@@ -1418,6 +1413,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEc-Wh-e21">
+                                <rect key="frame" x="293" y="580" width="69" height="66"/>
+                                <state key="normal" image="configuracion.png"/>
+                                <connections>
+                                    <segue destination="5KQ-pi-8ni" kind="show" id="hnB-V3-6ld"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.5157489842598042" green="0.89373947401092069" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1964,30 +1966,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¿Quieres actualizar tu peso?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUf-XL-U2Y">
-                                <rect key="frame" x="20" y="269" width="374" height="60"/>
+                                <rect key="frame" x="20" y="267" width="374" height="60"/>
                                 <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tu peso actual es de 68 Kg." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7y-FI-rLY">
+                                <rect key="frame" x="68" y="242" width="290" height="30"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¿Quieres actualizar tu altura?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4p-4e-Wvp">
-                                <rect key="frame" x="20" y="450" width="374" height="60"/>
+                                <rect key="frame" x="20" y="531" width="374" height="60"/>
                                 <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZgV-2V-now">
-                                <rect key="frame" x="165" y="354" width="97" height="30"/>
+                                <rect key="frame" x="165" y="330" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3xD-LG-DEb">
-                                <rect key="frame" x="267" y="354" width="25" height="30"/>
+                                <rect key="frame" x="270" y="330" width="25" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OJo-XP-RcT">
-                                <rect key="frame" x="165" y="526" width="97" height="30"/>
+                                <rect key="frame" x="165" y="603" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -1995,18 +2003,27 @@
                                 <rect key="frame" x="115" y="72" width="185" height="162"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zge-LY-ljO">
-                                <rect key="frame" x="160" y="607" width="92" height="30"/>
+                                <rect key="frame" x="167" y="649" width="92" height="30"/>
                                 <color key="backgroundColor" red="0.99583703279495239" green="0.63839936256408691" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Guardar"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mts." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8d-Su-x9L">
-                                <rect key="frame" x="267" y="526" width="41" height="30"/>
+                                <rect key="frame" x="270" y="603" width="41" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Estatura.png" translatesAutoresizingMaskIntoConstraints="NO" id="sIU-2K-FGw">
+                                <rect key="frame" x="115" y="392" width="196" height="131"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tu estatura actual es de 1,5Mts." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Qk-Db-fVR">
+                                <rect key="frame" x="62" y="515" width="290" height="30"/>
+                                <fontDescription key="fontDescription" name="Intro-Bold" family="Intro Bold" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Seguimiento" id="9rh-O0-auV"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
@@ -2209,9 +2226,9 @@
         <image name="video.png" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Dnl-Zb-w1b"/>
+        <segue reference="rkf-MW-B1y"/>
         <segue reference="oI6-co-t8u"/>
         <segue reference="SKZ-xK-izS"/>
-        <segue reference="rkf-MW-B1y"/>
-        <segue reference="n41-OF-9aI"/>
     </inferredMetricsTieBreakers>
 </document>
