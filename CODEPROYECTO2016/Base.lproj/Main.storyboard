@@ -1420,6 +1420,13 @@
                                     <segue destination="5KQ-pi-8ni" kind="show" id="hnB-V3-6ld"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyU-QI-pFk">
+                                <rect key="frame" x="18" y="299" width="51" height="30"/>
+                                <state key="normal" title="Rutinas"/>
+                                <connections>
+                                    <segue destination="z4P-lB-YMP" kind="push" id="oQ0-vj-CI4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.5157489842598042" green="0.89373947401092069" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1920,6 +1927,35 @@
             </objects>
             <point key="canvasLocation" x="167" y="-875"/>
         </scene>
+        <!--Simple Table View Controller-->
+        <scene sceneID="nqc-ni-lwz">
+            <objects>
+                <tableViewController id="z4P-lB-YMP" customClass="SimpleTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="h2M-iH-TNL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="BVB-Sr-hSb">
+                                <rect key="frame" x="0.0" y="92" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BVB-Sr-hSb" id="0mP-j0-ubm">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="z4P-lB-YMP" id="TP2-sI-hf3"/>
+                            <outlet property="delegate" destination="z4P-lB-YMP" id="qWN-vS-4vB"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="kG9-aG-lRI"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hwz-Sd-PuH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="891" y="-775"/>
+        </scene>
         <!--Tips-->
         <scene sceneID="XRE-KM-w61">
             <objects>
@@ -1951,7 +1987,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2qu-vk-3dU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1495" y="-897"/>
+            <point key="canvasLocation" x="1975" y="-893"/>
         </scene>
         <!--Seguimiento-->
         <scene sceneID="yZX-sI-2EA">
