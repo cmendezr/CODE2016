@@ -14,7 +14,12 @@
     IBOutlet UILabel *lblOpcion;
     IBOutlet UILabel *lblOpcion2;
     IBOutlet UILabel *lblOpcion3;
+    
+    IBOutlet UITableViewCell *celda1;
+    IBOutlet UITableViewCell *celda2;
+    IBOutlet UITableViewCell *celda3;
 }
 
+-(IBAction)OnClickAgendar:(id)sender;
 
 @end
