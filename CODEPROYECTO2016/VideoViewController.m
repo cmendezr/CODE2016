@@ -19,19 +19,19 @@
 {
     [super viewDidLoad];
     //INSTANCIAMOS EL VIDEO
- //   NSString *video= [[NSBundle mainBundle]pathForResource:@"video" ofType:@"mp4"];
+    NSString *video= [[NSBundle mainBundle]pathForResource:@"video" ofType:@"mp4"];
     //RUTA DEL VIDEO
- //   NSURL *direccion= [[NSURL alloc]initFileURLWithPath:video];
+    NSURL *direccion= [[NSURL alloc]initFileURLWithPath:video];
     //INICIALIZAMOS
-//    Reproductor.controlStyle = MPMovieControlStyleFullscreen;
-//    Reproductor=[[MPMoviePlayerController alloc] initWithContentURL:direccion];
+    Reproductor.controlStyle = MPMovieControlStyleFullscreen;
+   Reproductor=[[MPMoviePlayerController alloc] initWithContentURL:direccion];
     //CONFIGURAMOS LA PROPIEDAD VIEW DEL REPRODUCTOR PARA ASIGNARLE UN TAMAÑO
-  //  Reproductor.view.frame=self.view.bounds;
+    Reproductor.view.frame=self.view.bounds;
     //Y AHORA SU VISTA LA AÑADIMOS A LA VISTA PRINCIPAL
- //   [self.view addSubview:Reproductor.view];
- //   [Reproductor play];
+    [self.view addSubview:Reproductor.view];
+    [Reproductor play];
     
- //   [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playbackFinished) name:MPMoviePlayerPlaybackDidFinishNotification object:Reproductor];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playbackFinished) name:MPMoviePlayerPlaybackDidFinishNotification object:Reproductor];
 }
 
 -(void) playbackFinished {
