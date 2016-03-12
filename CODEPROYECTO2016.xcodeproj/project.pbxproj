@@ -116,6 +116,7 @@
 		526EEE5C1C93652E0072C5E3 /* iconSlim.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE4B1C93652E0072C5E3 /* iconSlim.png */; };
 		526EEE5D1C93652E0072C5E3 /* iconTerapeutica.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE4C1C93652E0072C5E3 /* iconTerapeutica.png */; };
 		526EEE5E1C93652E0072C5E3 /* iconVegetariana.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EEE4D1C93652E0072C5E3 /* iconVegetariana.png */; };
+		52F0C57F1C949EF100DBBAE5 /* DietasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F0C57E1C949EF100DBBAE5 /* DietasTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -263,6 +264,8 @@
 		526EEE4B1C93652E0072C5E3 /* iconSlim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSlim.png; sourceTree = "<group>"; };
 		526EEE4C1C93652E0072C5E3 /* iconTerapeutica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconTerapeutica.png; sourceTree = "<group>"; };
 		526EEE4D1C93652E0072C5E3 /* iconVegetariana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconVegetariana.png; sourceTree = "<group>"; };
+		52F0C57D1C949EF100DBBAE5 /* DietasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DietasTableViewController.h; sourceTree = "<group>"; };
+		52F0C57E1C949EF100DBBAE5 /* DietasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DietasTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -409,6 +412,8 @@
 				416B09DE1C932422009FD48D /* SimpleTableViewController.m */,
 				416B0A051C934EDD009FD48D /* DetalleGaleriaViewController.h */,
 				416B0A061C934EDD009FD48D /* DetalleGaleriaViewController.m */,
+				52F0C57D1C949EF100DBBAE5 /* DietasTableViewController.h */,
+				52F0C57E1C949EF100DBBAE5 /* DietasTableViewController.m */,
 				416B0A001C9329FD009FD48D /* recipes.plist */,
 				41B788EC1C8F349F001F6E4F /* LogoPrincipal.png */,
 				41FE66561C8E4F390052A48E /* AppDelegate.h */,
@@ -702,6 +707,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				416B0A071C934EDD009FD48D /* DetalleGaleriaViewController.m in Sources */,
+				52F0C57F1C949EF100DBBAE5 /* DietasTableViewController.m in Sources */,
 				4177E5491C9229D2000A4191 /* APRoundButton.h in Sources */,
 				4177E54A1C9229D2000A4191 /* APRoundButton.m in Sources */,
 				4114CDFE1C8F353F00A6FEC3 /* ViewController.m in Sources */,
@@ -805,7 +811,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -844,7 +850,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
