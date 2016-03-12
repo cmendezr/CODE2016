@@ -76,6 +76,23 @@
         lblOpcion3.text = @"Una";
     } else if([titulo isEqualToString:@"Dos"]){
         lblOpcion3.text = @"Dos";
+    } else if([titulo isEqualToString:@"Si"]){
+        celda1.contentView.backgroundColor = [ UIColor greenColor ];
+        //celda2.contentView.backgroundColor = [ UIColor greenColor ];
+        //celda3.contentView.backgroundColor = [ UIColor greenColor ];
+    } else if([titulo isEqualToString:@"No"]){
+        celda1.contentView.backgroundColor = [ UIColor redColor ];
+        //celda2.contentView.backgroundColor = [ UIColor greenColor ];
+        //celda3.contentView.backgroundColor = [ UIColor greenColor ];
     }
+}
+
+-(IBAction)OnClickAgendar:(id)sender {
+    UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Evento disponible"
+                                                      message:@"¿Quieres agendar este evento en tu calendario?"
+                                                     delegate:self
+                                            cancelButtonTitle:@"Si"
+                                            otherButtonTitles:@"No", nil];
+    [message show];
 }
 @end
