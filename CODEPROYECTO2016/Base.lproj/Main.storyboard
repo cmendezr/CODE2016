@@ -1386,9 +1386,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hG-i8-CHg">
                                 <rect key="frame" x="175" y="578" width="64" height="68"/>
                                 <state key="normal" image="tips-re.png"/>
-                                <connections>
-                                    <segue destination="KEQ-gm-Fed" kind="push" id="aGt-SN-F0p"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hv-HG-lsK">
                                 <rect key="frame" x="191" y="652" width="33" height="21"/>
@@ -1952,7 +1949,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2qu-vk-3dU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1236" y="-861"/>
+            <point key="canvasLocation" x="1495" y="-897"/>
         </scene>
         <!--Seguimiento-->
         <scene sceneID="yZX-sI-2EA">
