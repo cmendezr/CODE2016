@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4109113B1C93981D0049BAE4 /* TipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410911381C93981D0049BAE4 /* TipsViewController.m */; };
-		4109113C1C93981D0049BAE4 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4109113A1C93981D0049BAE4 /* VideoViewController.m */; };
 		4114CDFE1C8F353F00A6FEC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4114CDFD1C8F353F00A6FEC3 /* ViewController.m */; };
 		4114CE001C8F366600A6FEC3 /* LogoPrincipal.png in Resources */ = {isa = PBXBuildFile; fileRef = 4114CDFF1C8F366600A6FEC3 /* LogoPrincipal.png */; };
 		4114CE0C1C8F47F000A6FEC3 /* salud.png in Resources */ = {isa = PBXBuildFile; fileRef = 4114CE061C8F47F000A6FEC3 /* salud.png */; };
@@ -52,6 +50,8 @@
 		416DDC851C939C7F006FA41E /* alarma.png in Resources */ = {isa = PBXBuildFile; fileRef = 416DDC841C939C7F006FA41E /* alarma.png */; };
 		416DDC871C939CA7006FA41E /* contador.png in Resources */ = {isa = PBXBuildFile; fileRef = 416DDC861C939CA7006FA41E /* contador.png */; };
 		416DDC891C939CC5006FA41E /* tips-re.png in Resources */ = {isa = PBXBuildFile; fileRef = 416DDC881C939CC5006FA41E /* tips-re.png */; };
+		416DDC8E1C939EC5006FA41E /* TipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416DDC8B1C939EC5006FA41E /* TipsViewController.m */; };
+		416DDC8F1C939EC5006FA41E /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416DDC8D1C939EC5006FA41E /* VideoViewController.m */; };
 		4177E53E1C920093000A4191 /* IntroBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53A1C920093000A4191 /* IntroBold.otf */; };
 		4177E53F1C920093000A4191 /* introbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53B1C920093000A4191 /* introbold.ttf */; };
 		4177E5401C920093000A4191 /* IntroBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4177E53C1C920093000A4191 /* IntroBook.otf */; };
@@ -130,10 +130,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		410911371C93981D0049BAE4 /* TipsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TipsViewController.h; path = ../../Documents/archivos/TipsViewController.h; sourceTree = "<group>"; };
-		410911381C93981D0049BAE4 /* TipsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TipsViewController.m; path = ../../Documents/archivos/TipsViewController.m; sourceTree = "<group>"; };
-		410911391C93981D0049BAE4 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoViewController.h; path = ../../Documents/archivos/VideoViewController.h; sourceTree = "<group>"; };
-		4109113A1C93981D0049BAE4 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoViewController.m; path = ../../Documents/archivos/VideoViewController.m; sourceTree = "<group>"; };
 		4114CDFC1C8F353F00A6FEC3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4114CDFD1C8F353F00A6FEC3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4114CDFF1C8F366600A6FEC3 /* LogoPrincipal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoPrincipal.png; sourceTree = "<group>"; };
@@ -184,6 +180,10 @@
 		416DDC841C939C7F006FA41E /* alarma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarma.png; sourceTree = "<group>"; };
 		416DDC861C939CA7006FA41E /* contador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contador.png; sourceTree = "<group>"; };
 		416DDC881C939CC5006FA41E /* tips-re.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tips-re.png"; sourceTree = "<group>"; };
+		416DDC8A1C939EC5006FA41E /* TipsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipsViewController.h; sourceTree = "<group>"; };
+		416DDC8B1C939EC5006FA41E /* TipsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipsViewController.m; sourceTree = "<group>"; };
+		416DDC8C1C939EC5006FA41E /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		416DDC8D1C939EC5006FA41E /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		4177E53A1C920093000A4191 /* IntroBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroBold.otf; sourceTree = "<group>"; };
 		4177E53B1C920093000A4191 /* introbold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = introbold.ttf; sourceTree = "<group>"; };
 		4177E53C1C920093000A4191 /* IntroBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroBook.otf; sourceTree = "<group>"; };
@@ -373,10 +373,10 @@
 		41FE66521C8E4F390052A48E /* CODEPROYECTO2016 */ = {
 			isa = PBXGroup;
 			children = (
-				410911371C93981D0049BAE4 /* TipsViewController.h */,
-				410911381C93981D0049BAE4 /* TipsViewController.m */,
-				410911391C93981D0049BAE4 /* VideoViewController.h */,
-				4109113A1C93981D0049BAE4 /* VideoViewController.m */,
+				416DDC8A1C939EC5006FA41E /* TipsViewController.h */,
+				416DDC8B1C939EC5006FA41E /* TipsViewController.m */,
+				416DDC8C1C939EC5006FA41E /* VideoViewController.h */,
+				416DDC8D1C939EC5006FA41E /* VideoViewController.m */,
 				41A8FDAF1C907D0800F59FE7 /* ConfigurationViewController.m */,
 				41A8FDAE1C907CF500F59FE7 /* ConfigurationViewController.h */,
 				4177E5471C9229D2000A4191 /* APRoundButton.h */,
@@ -679,18 +679,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4109113B1C93981D0049BAE4 /* TipsViewController.m in Sources */,
 				416B0A071C934EDD009FD48D /* DetalleGaleriaViewController.m in Sources */,
 				4177E5491C9229D2000A4191 /* APRoundButton.h in Sources */,
 				4177E54A1C9229D2000A4191 /* APRoundButton.m in Sources */,
-				4109113C1C93981D0049BAE4 /* VideoViewController.m in Sources */,
 				4114CDFE1C8F353F00A6FEC3 /* ViewController.m in Sources */,
 				4177E5461C9213A9000A4191 /* BackgroundLayer.m in Sources */,
 				41FE66581C8E4F390052A48E /* AppDelegate.m in Sources */,
+				416DDC8E1C939EC5006FA41E /* TipsViewController.m in Sources */,
 				4158AC101C8F525C0021FA62 /* AlarmaViewController.m in Sources */,
 				41FE66551C8E4F390052A48E /* main.m in Sources */,
 				416B09DF1C932422009FD48D /* SimpleTableViewController.m in Sources */,
 				415B577F1C8F83D500BC6558 /* CronoTableViewController.m in Sources */,
+				416DDC8F1C939EC5006FA41E /* VideoViewController.m in Sources */,
 				41A8FDB01C907D0800F59FE7 /* ConfigurationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
