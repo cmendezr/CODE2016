@@ -294,6 +294,30 @@
             </objects>
             <point key="canvasLocation" x="84" y="5"/>
         </scene>
+        <!--Tweets-->
+        <scene sceneID="vi4-Qt-RZs">
+            <objects>
+                <viewController id="1ZU-MW-tFT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g0b-HG-zbL"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xmf-HU-eSw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hfW-WA-tfz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="twitterwithheld.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kza-hY-7rS">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tweets" id="xjS-Ek-ea0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9fX-o3-KQm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-112" y="-1006"/>
+        </scene>
         <!--Crono Table View Controller-->
         <scene sceneID="2A6-fU-IMD">
             <objects>
@@ -794,7 +818,7 @@
         <!--Actualiza tu estatura-->
         <scene sceneID="KHX-bD-xWH">
             <objects>
-                <viewController title="Actualiza tu estatura" id="B3g-Ge-idW" sceneMemberID="viewController">
+                <viewController title="Actualiza tu estatura" id="B3g-Ge-idW" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RgD-th-R5v"/>
                         <viewControllerLayoutGuide type="bottom" id="qwG-kA-0Ek"/>
@@ -1454,10 +1478,6 @@
                                                 <segue destination="z4P-lB-YMP" kind="push" id="oQ0-vj-CI4"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGS-8Q-hYi">
-                                            <rect key="frame" x="282" y="6" width="63" height="56"/>
-                                            <state key="normal" image="431616_1twitter3.png"/>
-                                        </button>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euU-dR-Qek">
                                             <rect key="frame" x="35" y="6" width="58" height="61"/>
                                             <state key="normal" image="dieta.png"/>
@@ -1471,6 +1491,13 @@
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGS-8Q-hYi">
+                                            <rect key="frame" x="281" y="11" width="63" height="56"/>
+                                            <state key="normal" image="431616_1twitter3.png"/>
+                                            <connections>
+                                                <segue destination="1ZU-MW-tFT" kind="push" id="kxf-6E-F8w"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                 </view>
                                 <blurEffect style="light"/>
@@ -2307,6 +2334,7 @@
         <image name="platolleno.png" width="325" height="206"/>
         <image name="retos.png" width="165" height="75"/>
         <image name="tips-re.png" width="133" height="136"/>
+        <image name="twitterwithheld.png" width="775" height="976"/>
         <image name="vVacio.png" width="198" height="291"/>
         <image name="vasoss.jpg" width="960" height="400"/>
         <image name="video.png" width="512" height="512"/>
