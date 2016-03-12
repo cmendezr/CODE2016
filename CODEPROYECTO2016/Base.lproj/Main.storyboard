@@ -57,7 +57,7 @@
                             <tableViewSection id="o2C-Il-pP9">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="0.0" id="PiH-2K-l1Z">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="64" width="414" height="0.0"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PiH-2K-l1Z" id="o8o-Ca-pX6">
                                             <rect key="frame" x="0.0" y="-1" width="414" height="1"/>
@@ -65,7 +65,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="qX0-K3-3OF" detailTextLabel="6yM-Ef-TNo" imageView="RLl-he-r6h" rowHeight="169" style="IBUITableViewCellStyleSubtitle" id="hgg-h9-agf">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="169"/>
+                                        <rect key="frame" x="0.0" y="64" width="414" height="169"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hgg-h9-agf" id="1Gg-AZ-Iwq">
                                             <rect key="frame" x="0.0" y="0.0" width="381" height="168"/>
@@ -94,7 +94,7 @@
                                         <color key="backgroundColor" red="0.9286925196647644" green="0.44416353106498718" blue="0.12955549359321594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="usT-71-kk5" detailTextLabel="WgO-2c-mPM" imageView="W3W-aA-MnC" rowHeight="168" style="IBUITableViewCellStyleSubtitle" id="lev-4z-9FH">
-                                        <rect key="frame" x="0.0" y="169" width="414" height="168"/>
+                                        <rect key="frame" x="0.0" y="233" width="414" height="168"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lev-4z-9FH" id="ATC-7P-Aqh">
                                             <rect key="frame" x="0.0" y="0.0" width="381" height="167"/>
@@ -123,7 +123,7 @@
                                         <color key="backgroundColor" red="0.066243425011634827" green="0.64882606267929077" blue="0.89231568574905396" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="v09-GQ-qXb" detailTextLabel="uQU-ej-eHB" imageView="iYu-5O-2rN" rowHeight="168" style="IBUITableViewCellStyleSubtitle" id="Oqe-Dn-d6d">
-                                        <rect key="frame" x="0.0" y="337" width="414" height="168"/>
+                                        <rect key="frame" x="0.0" y="401" width="414" height="168"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Oqe-Dn-d6d" id="Amo-Rs-rIf">
                                             <rect key="frame" x="0.0" y="0.0" width="381" height="167"/>
@@ -152,7 +152,7 @@
                                         <color key="backgroundColor" red="0.54873448610305786" green="0.78053992986679077" blue="0.23597612977027893" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="36C-9o-QtG" detailTextLabel="rNV-z6-HK7" imageView="qLL-i3-Ng9" rowHeight="168" style="IBUITableViewCellStyleSubtitle" id="rOM-oi-eCm">
-                                        <rect key="frame" x="0.0" y="505" width="414" height="168"/>
+                                        <rect key="frame" x="0.0" y="569" width="414" height="168"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rOM-oi-eCm" id="ksu-Tz-JJq">
                                             <rect key="frame" x="0.0" y="0.0" width="381" height="167"/>
@@ -1461,6 +1461,9 @@
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euU-dR-Qek">
                                             <rect key="frame" x="35" y="6" width="58" height="61"/>
                                             <state key="normal" image="dieta.png"/>
+                                            <connections>
+                                                <segue destination="TtZ-Mo-aAk" kind="push" id="3ln-rr-6S3"/>
+                                            </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dietas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udz-Rm-1HK">
                                             <rect key="frame" x="40" y="70" width="49" height="21"/>
